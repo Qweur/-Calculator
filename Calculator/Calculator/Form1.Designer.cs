@@ -60,7 +60,7 @@
             this.Addition.TabIndex = 3;
             this.Addition.Text = "Сложение";
             this.Addition.UseVisualStyleBackColor = true;
-            this.Addition.Click += new System.EventHandler(this.Addition_Click);
+            this.Addition.Click += new System.EventHandler(this.Calculate);
             // 
             // Subtraction
             // 
@@ -70,7 +70,7 @@
             this.Subtraction.TabIndex = 4;
             this.Subtraction.Text = "Вычитание";
             this.Subtraction.UseVisualStyleBackColor = true;
-            this.Subtraction.Click += new System.EventHandler(this.Subtraction_Click);
+            this.Subtraction.Click += new System.EventHandler(this.Calculate);
             // 
             // Multiplication
             // 
@@ -80,7 +80,7 @@
             this.Multiplication.TabIndex = 6;
             this.Multiplication.Text = "Умножение";
             this.Multiplication.UseVisualStyleBackColor = true;
-            this.Multiplication.Click += new System.EventHandler(this.Multiplication_Click);
+            this.Multiplication.Click += new System.EventHandler(this.Calculate);
             // 
             // Division
             // 
@@ -90,7 +90,7 @@
             this.Division.TabIndex = 8;
             this.Division.Text = "Деление";
             this.Division.UseVisualStyleBackColor = true;
-            this.Division.Click += new System.EventHandler(this.Division_Click);
+            this.Division.Click += new System.EventHandler(this.Calculate);
             // 
             // Result
             // 

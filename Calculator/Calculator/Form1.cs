@@ -33,26 +33,43 @@ namespace Calculator
 
         private void Subtraction_Click(object sender, EventArgs e)
         {
-            double firstoperand = Convert.ToDouble(Input1.Text);
-            double secondoperand = Convert.ToDouble(Input2.Text);
-            double result = firstoperand - secondoperand;
-            Result.Text = result.ToString();
+
         }
 
         private void Multiplication_Click(object sender, EventArgs e)
         {
-            double firstoperand = Convert.ToDouble(Input1.Text);
-            double secondoperand = Convert.ToDouble(Input2.Text);
-            double result = firstoperand * secondoperand;
-            Result.Text = result.ToString();
+
         }
 
         private void Division_Click(object sender, EventArgs e)
         {
-            double firstoperand = Convert.ToDouble(Input1.Text);
-            double secondoperand = Convert.ToDouble(Input2.Text);
-            double result = firstoperand / secondoperand;
+
+        }
+        private void Calculate(object sender, EventArgs e)
+        {
+            double firstOperand = Convert.ToDouble(Input1.Text);
+            double secondOperand = Convert.ToDouble(Input2.Text);
+            double result;
+            switch (((Button)sender).Name)
+            {
+                case "Addition":
+                    result = firstOperand + secondOperand;
+                    break;
+                case "Subtraction":
+                    result = firstOperand - secondOperand;
+                    break;
+                case "Multiplication":
+                    result = firstOperand * secondOperand;
+                    break;
+                case "Division":
+                    result = firstOperand / secondOperand;
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
+
             Result.Text = result.ToString();
+
         }
     }
 }
