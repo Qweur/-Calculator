@@ -49,24 +49,9 @@ namespace Calculator
         {
             double firstOperand = Convert.ToDouble(Input1.Text);
             double secondOperand = Convert.ToDouble(Input2.Text);
-            double result;
-            switch (((Button)sender).Name)
-            {
-                case "Addition":
-                    result = firstOperand + secondOperand;
-                    break;
-                case "Subtraction":
-                    result = firstOperand - secondOperand;
-                    break;
-                case "Multiplication":
-                    result = firstOperand * secondOperand;
-                    break;
-                case "Division":
-                    result = firstOperand / secondOperand;
-                    break;
-                default:
-                    throw new Exception("Неизвестная операция");
-            }
+            ITwoArgumentsCalculator calculator = Factory.Calculate(((Button)sender).Name);
+            double result = calculator.Calculate(firstOperand, secondOperand);
+
 
             Result.Text = result.ToString();
 
