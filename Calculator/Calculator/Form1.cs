@@ -24,34 +24,34 @@ namespace Calculator
 
         private void Addition_Click(object sender, EventArgs e)
         {
-            double operand1 = Convert.ToDouble(Input1.Text);
-            double operand2 = Convert.ToDouble(Input2.Text);
-            double result = operand1 + operand2;
+            double firstoperand = Convert.ToDouble(Input1.Text);
+            double secondoperand = Convert.ToDouble(Input2.Text);
+            double result = firstoperand + secondoperand;
             Result.Text = result.ToString();
 
         }
 
         private void Subtraction_Click(object sender, EventArgs e)
         {
-            double operand1 = Convert.ToDouble(Input1.Text);
-            double operand2 = Convert.ToDouble(Input2.Text);
-            double result = operand1 - operand2;
+            double firstoperand = Convert.ToDouble(Input1.Text);
+            double secondoperand = Convert.ToDouble(Input2.Text);
+            double result = firstoperand - secondoperand;
             Result.Text = result.ToString();
         }
 
         private void Multiplication_Click(object sender, EventArgs e)
         {
-            double operand1 = Convert.ToDouble(Input1.Text);
-            double operand2 = Convert.ToDouble(Input2.Text);
-            double result = operand1 * operand2;
+            double firstoperand = Convert.ToDouble(Input1.Text);
+            double secondoperand = Convert.ToDouble(Input2.Text);
+            double result = firstoperand * secondoperand;
             Result.Text = result.ToString();
         }
 
         private void Division_Click(object sender, EventArgs e)
         {
-            double operand1 = Convert.ToDouble(Input1.Text);
-            double operand2 = Convert.ToDouble(Input2.Text);
-            double result = operand1 / operand2;
+            double firstoperand = Convert.ToDouble(Input1.Text);
+            double secondoperand = Convert.ToDouble(Input2.Text);
+            double result = firstoperand / secondoperand;
             Result.Text = result.ToString();
         }
     }
