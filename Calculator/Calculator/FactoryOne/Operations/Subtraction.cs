@@ -1,4 +1,4 @@
-﻿namespace Calculator
+﻿namespace Calculator.FactoryOne.Operations
 {
     class Subtraction : ITwoArgumentsCalculator
     {

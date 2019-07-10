@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Calculator
+namespace Calculator.FactoryTwo.Operations
 {
     class RootExtraction : IOneArgumentsCalculator
     {

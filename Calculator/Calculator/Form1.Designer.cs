@@ -37,6 +37,7 @@
             this.Result = new System.Windows.Forms.TextBox();
             this.Square_root = new System.Windows.Forms.Button();
             this.Root_extraction = new System.Windows.Forms.Button();
+            this.Logarithms = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -121,11 +122,22 @@
             this.Root_extraction.UseVisualStyleBackColor = true;
             this.Root_extraction.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // Logarithms
+            // 
+            this.Logarithms.Location = new System.Drawing.Point(12, 115);
+            this.Logarithms.Name = "Logarithms";
+            this.Logarithms.Size = new System.Drawing.Size(75, 23);
+            this.Logarithms.TabIndex = 12;
+            this.Logarithms.Text = "log";
+            this.Logarithms.UseVisualStyleBackColor = true;
+            this.Logarithms.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(437, 169);
+            this.Controls.Add(this.Logarithms);
             this.Controls.Add(this.Root_extraction);
             this.Controls.Add(this.Square_root);
             this.Controls.Add(this.Result);
@@ -153,6 +165,7 @@
         private System.Windows.Forms.TextBox Result;
         private System.Windows.Forms.Button Square_root;
         private System.Windows.Forms.Button Root_extraction;
+        private System.Windows.Forms.Button Logarithms;
     }
 }
 

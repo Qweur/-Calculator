@@ -1,6 +1,7 @@
 ﻿using System;
+using Calculator.FactoryTwo.Operations;
 
-namespace Calculator
+namespace Calculator.FactoryTwo
 {
     public static class FactoryTwo
     {

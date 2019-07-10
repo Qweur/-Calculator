@@ -1,6 +1,8 @@
 ﻿using System;
+using Calculator._10;
+using Calculator.FactoryOne.Operations;
 
-namespace Calculator
+namespace Calculator.FactoryOne
 {
    public static class Factory
     {
@@ -20,6 +22,8 @@ namespace Calculator
 
                 case "Division":
                     return new Division();
+                case "Logarithms":
+                    return new Logarithms();
 
                 default:
                     throw new Exception("Неизвестная операция");
