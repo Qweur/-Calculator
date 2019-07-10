@@ -23,6 +23,8 @@ namespace Calculator.FactoryTwo
                     return new CTan();
                 case "DivisionByOne":
                     return new DivisionByOne();
+                case "LnX":
+                    return new LnX();
                 default:
                     throw new Exception("Неизвестная операция");
             }

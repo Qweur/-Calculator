@@ -45,6 +45,7 @@
             this.Arcsin = new System.Windows.Forms.Button();
             this.CTan = new System.Windows.Forms.Button();
             this.DivisionByOne = new System.Windows.Forms.Button();
+            this.LnX = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -209,11 +210,22 @@
             this.DivisionByOne.UseVisualStyleBackColor = true;
             this.DivisionByOne.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // LnX
+            // 
+            this.LnX.Location = new System.Drawing.Point(93, 233);
+            this.LnX.Name = "LnX";
+            this.LnX.Size = new System.Drawing.Size(75, 23);
+            this.LnX.TabIndex = 20;
+            this.LnX.Text = "ln(x)";
+            this.LnX.UseVisualStyleBackColor = true;
+            this.LnX.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(496, 225);
+            this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.LnX);
             this.Controls.Add(this.DivisionByOne);
             this.Controls.Add(this.CTan);
             this.Controls.Add(this.Arcsin);
@@ -257,6 +269,7 @@
         private System.Windows.Forms.Button Arcsin;
         private System.Windows.Forms.Button CTan;
         private System.Windows.Forms.Button DivisionByOne;
+        private System.Windows.Forms.Button LnX;
     }
 }
 

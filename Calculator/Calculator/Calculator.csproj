@@ -50,6 +50,7 @@
     <Compile Include="10\CTan.cs" />
     <Compile Include="10\DivisionByOne.cs" />
     <Compile Include="10\GeometricMean.cs" />
+    <Compile Include="10\LnX.cs" />
     <Compile Include="10\Logarithms.cs" />
     <Compile Include="10\Max.cs" />
     <Compile Include="10\RemainderOfTheDivision.cs" />
