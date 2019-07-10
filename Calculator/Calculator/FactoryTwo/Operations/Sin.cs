@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Calculator.FactoryOne;
 using Calculator.FactoryTwo;
 
-namespace Calculator._10
+namespace Calculator.FactoryTwo.Operations
 {
     class Sin : IOneArgumentsCalculator
     {

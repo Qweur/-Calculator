@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Calculator.FactoryTwo;
 
-namespace Calculator._10
+namespace Calculator.FactoryTwo.Operations
 {
     class Arcsin : IOneArgumentsCalculator
     {

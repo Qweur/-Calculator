@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="FactoryOne\Operations\Average.cs" />
     <Compile Include="FactoryTwo\Operations\Arcsin.cs" />
+    <Compile Include="FactoryTwo\Operations\Cos.cs" />
     <Compile Include="FactoryTwo\Operations\CTan.cs" />
     <Compile Include="FactoryTwo\Operations\DivisionByOne.cs" />
     <Compile Include="FactoryOne\Operations\GeometricMean.cs" />

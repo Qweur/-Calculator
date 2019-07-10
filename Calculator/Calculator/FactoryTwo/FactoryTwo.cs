@@ -1,5 +1,4 @@
 ﻿using System;
-using Calculator._10;
 using Calculator.FactoryTwo.Operations;
 
 namespace Calculator.FactoryTwo
@@ -27,6 +26,8 @@ namespace Calculator.FactoryTwo
                     return new LnX();
                 case "LogTwo":
                     return new LogTwo();
+                case "Cos":
+                    return new Cos();
                 default:
                     throw new Exception("Неизвестная операция");
             }

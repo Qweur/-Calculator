@@ -49,6 +49,7 @@
             this.LogTwo = new System.Windows.Forms.Button();
             this.Min = new System.Windows.Forms.Button();
             this.Average = new System.Windows.Forms.Button();
+            this.Cos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -253,11 +254,22 @@
             this.Average.UseVisualStyleBackColor = true;
             this.Average.Click += new System.EventHandler(this.Calculate);
             // 
+            // Cos
+            // 
+            this.Cos.Location = new System.Drawing.Point(12, 175);
+            this.Cos.Name = "Cos";
+            this.Cos.Size = new System.Drawing.Size(75, 23);
+            this.Cos.TabIndex = 24;
+            this.Cos.Text = "cos(x)";
+            this.Cos.UseVisualStyleBackColor = true;
+            this.Cos.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.Cos);
             this.Controls.Add(this.Average);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.LogTwo);
@@ -309,6 +321,7 @@
         private System.Windows.Forms.Button LogTwo;
         private System.Windows.Forms.Button Min;
         private System.Windows.Forms.Button Average;
+        private System.Windows.Forms.Button Cos;
     }
 }
 
