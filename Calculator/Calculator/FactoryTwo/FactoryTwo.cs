@@ -17,6 +17,8 @@ namespace Calculator.FactoryTwo
                     return new SquareRoot();
                 case "Sin":
                     return new Sin();
+                case "Arcsin":
+                    return new Arcsin();
 
                 default:
                     throw new Exception("Неизвестная операция");

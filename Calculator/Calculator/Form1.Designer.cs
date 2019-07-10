@@ -42,6 +42,7 @@
             this.Max = new System.Windows.Forms.Button();
             this.GeometricMean = new System.Windows.Forms.Button();
             this.Sin = new System.Windows.Forms.Button();
+            this.Arcsin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -176,11 +177,22 @@
             this.Sin.UseVisualStyleBackColor = true;
             this.Sin.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // Arcsin
+            // 
+            this.Arcsin.Location = new System.Drawing.Point(93, 144);
+            this.Arcsin.Name = "Arcsin";
+            this.Arcsin.Size = new System.Drawing.Size(75, 23);
+            this.Arcsin.TabIndex = 17;
+            this.Arcsin.Text = "Arcsin";
+            this.Arcsin.UseVisualStyleBackColor = true;
+            this.Arcsin.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(496, 225);
+            this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Sin);
             this.Controls.Add(this.GeometricMean);
             this.Controls.Add(this.Max);
@@ -218,6 +230,7 @@
         private System.Windows.Forms.Button Max;
         private System.Windows.Forms.Button GeometricMean;
         private System.Windows.Forms.Button Sin;
+        private System.Windows.Forms.Button Arcsin;
     }
 }
 
