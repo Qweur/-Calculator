@@ -38,6 +38,7 @@
             this.Square_root = new System.Windows.Forms.Button();
             this.Root_extraction = new System.Windows.Forms.Button();
             this.Logarithms = new System.Windows.Forms.Button();
+            this.RemainderOfTheDivision = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -132,11 +133,22 @@
             this.Logarithms.UseVisualStyleBackColor = true;
             this.Logarithms.Click += new System.EventHandler(this.Calculate);
             // 
+            // RemainderOfTheDivision
+            // 
+            this.RemainderOfTheDivision.Location = new System.Drawing.Point(206, 115);
+            this.RemainderOfTheDivision.Name = "RemainderOfTheDivision";
+            this.RemainderOfTheDivision.Size = new System.Drawing.Size(127, 23);
+            this.RemainderOfTheDivision.TabIndex = 13;
+            this.RemainderOfTheDivision.Text = "Остаток от деления";
+            this.RemainderOfTheDivision.UseVisualStyleBackColor = true;
+            this.RemainderOfTheDivision.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(437, 169);
+            this.Controls.Add(this.RemainderOfTheDivision);
             this.Controls.Add(this.Logarithms);
             this.Controls.Add(this.Root_extraction);
             this.Controls.Add(this.Square_root);
@@ -166,6 +178,7 @@
         private System.Windows.Forms.Button Square_root;
         private System.Windows.Forms.Button Root_extraction;
         private System.Windows.Forms.Button Logarithms;
+        private System.Windows.Forms.Button RemainderOfTheDivision;
     }
 }
 

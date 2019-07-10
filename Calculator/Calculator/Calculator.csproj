@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="10\Logarithms.cs" />
+    <Compile Include="10\RemainderOfTheDivision.cs" />
     <Compile Include="FactoryOne\Operations\Addition.cs" />
     <Compile Include="FactoryOne\Operations\Division.cs" />
     <Compile Include="FactoryOne\Factory.cs" />
