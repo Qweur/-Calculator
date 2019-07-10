@@ -35,6 +35,8 @@
             this.Multiplication = new System.Windows.Forms.Button();
             this.Division = new System.Windows.Forms.Button();
             this.Result = new System.Windows.Forms.TextBox();
+            this.Square_root = new System.Windows.Forms.Button();
+            this.Root_extraction = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -99,11 +101,31 @@
             this.Result.Size = new System.Drawing.Size(100, 20);
             this.Result.TabIndex = 9;
             // 
+            // Square_root
+            // 
+            this.Square_root.Location = new System.Drawing.Point(386, 132);
+            this.Square_root.Name = "Square_root";
+            this.Square_root.Size = new System.Drawing.Size(127, 23);
+            this.Square_root.TabIndex = 10;
+            this.Square_root.Text = "Корень квадратный ";
+            this.Square_root.UseVisualStyleBackColor = true;
+            // 
+            // Root_extraction
+            // 
+            this.Root_extraction.Location = new System.Drawing.Point(386, 189);
+            this.Root_extraction.Name = "Root_extraction";
+            this.Root_extraction.Size = new System.Drawing.Size(127, 23);
+            this.Root_extraction.TabIndex = 11;
+            this.Root_extraction.Text = "Извлечение корня";
+            this.Root_extraction.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Root_extraction);
+            this.Controls.Add(this.Square_root);
             this.Controls.Add(this.Result);
             this.Controls.Add(this.Division);
             this.Controls.Add(this.Multiplication);
@@ -127,6 +149,8 @@
         private System.Windows.Forms.Button Multiplication;
         private System.Windows.Forms.Button Division;
         private System.Windows.Forms.TextBox Result;
+        private System.Windows.Forms.Button Square_root;
+        private System.Windows.Forms.Button Root_extraction;
     }
 }
 
