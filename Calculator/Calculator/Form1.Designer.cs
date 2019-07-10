@@ -41,7 +41,7 @@
             // 
             // Input1
             // 
-            this.Input1.Location = new System.Drawing.Point(148, 69);
+            this.Input1.Location = new System.Drawing.Point(12, 12);
             this.Input1.Name = "Input1";
             this.Input1.Size = new System.Drawing.Size(100, 20);
             this.Input1.TabIndex = 0;
@@ -49,14 +49,14 @@
             // 
             // Input2
             // 
-            this.Input2.Location = new System.Drawing.Point(341, 69);
+            this.Input2.Location = new System.Drawing.Point(123, 12);
             this.Input2.Name = "Input2";
             this.Input2.Size = new System.Drawing.Size(100, 20);
             this.Input2.TabIndex = 1;
             // 
             // Addition
             // 
-            this.Addition.Location = new System.Drawing.Point(148, 132);
+            this.Addition.Location = new System.Drawing.Point(12, 57);
             this.Addition.Name = "Addition";
             this.Addition.Size = new System.Drawing.Size(75, 23);
             this.Addition.TabIndex = 3;
@@ -66,7 +66,7 @@
             // 
             // Subtraction
             // 
-            this.Subtraction.Location = new System.Drawing.Point(266, 132);
+            this.Subtraction.Location = new System.Drawing.Point(93, 57);
             this.Subtraction.Name = "Subtraction";
             this.Subtraction.Size = new System.Drawing.Size(75, 23);
             this.Subtraction.TabIndex = 4;
@@ -76,7 +76,7 @@
             // 
             // Multiplication
             // 
-            this.Multiplication.Location = new System.Drawing.Point(148, 189);
+            this.Multiplication.Location = new System.Drawing.Point(12, 86);
             this.Multiplication.Name = "Multiplication";
             this.Multiplication.Size = new System.Drawing.Size(75, 23);
             this.Multiplication.TabIndex = 6;
@@ -86,7 +86,7 @@
             // 
             // Division
             // 
-            this.Division.Location = new System.Drawing.Point(266, 189);
+            this.Division.Location = new System.Drawing.Point(93, 86);
             this.Division.Name = "Division";
             this.Division.Size = new System.Drawing.Size(75, 23);
             this.Division.TabIndex = 8;
@@ -96,36 +96,36 @@
             // 
             // Result
             // 
-            this.Result.Location = new System.Drawing.Point(527, 69);
+            this.Result.Location = new System.Drawing.Point(306, 12);
             this.Result.Name = "Result";
             this.Result.Size = new System.Drawing.Size(100, 20);
             this.Result.TabIndex = 9;
             // 
             // Square_root
             // 
-            this.Square_root.Location = new System.Drawing.Point(386, 132);
+            this.Square_root.Location = new System.Drawing.Point(206, 57);
             this.Square_root.Name = "Square_root";
             this.Square_root.Size = new System.Drawing.Size(127, 23);
             this.Square_root.TabIndex = 10;
             this.Square_root.Text = "Корень квадратный ";
             this.Square_root.UseVisualStyleBackColor = true;
-            this.Square_root.Click += new System.EventHandler(this.Square_root_Click);
+            this.Square_root.Click += new System.EventHandler(this.Calculate_Two);
             // 
             // Root_extraction
             // 
-            this.Root_extraction.Location = new System.Drawing.Point(386, 189);
+            this.Root_extraction.Location = new System.Drawing.Point(206, 86);
             this.Root_extraction.Name = "Root_extraction";
             this.Root_extraction.Size = new System.Drawing.Size(127, 23);
             this.Root_extraction.TabIndex = 11;
             this.Root_extraction.Text = "Извлечение корня";
             this.Root_extraction.UseVisualStyleBackColor = true;
-            this.Root_extraction.Click += new System.EventHandler(this.Root_extraction_Click);
+            this.Root_extraction.Click += new System.EventHandler(this.Calculate_Two);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(437, 169);
             this.Controls.Add(this.Root_extraction);
             this.Controls.Add(this.Square_root);
             this.Controls.Add(this.Result);

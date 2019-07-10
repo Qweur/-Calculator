@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
 using System.Windows.Forms;
 
 namespace Calculator
@@ -22,54 +16,24 @@ namespace Calculator
 
         }
 
-        private void Addition_Click(object sender, EventArgs e)
+        private void Calculate_Two(object sender, EventArgs e)
         {
-            double firstoperand = Convert.ToDouble(Input1.Text);
-            double secondoperand = Convert.ToDouble(Input2.Text);
-            double result = firstoperand + secondoperand;
-            Result.Text = result.ToString();
+            double firstOperand = Convert.ToDouble(Input1.Text);
+            IOneArgumentsCalculator calculator = FactoryTwo.CalculateTwo(((Button)sender).Name);
+            double result = calculator.CalculateTwo(firstOperand);
 
-        }
 
-        private void Subtraction_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Multiplication_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Division_Click(object sender, EventArgs e)
-        {
-
+            Result.Text = result.ToString(CultureInfo.InvariantCulture);
         }
         private void Calculate(object sender, EventArgs e)
         {
             double firstOperand = Convert.ToDouble(Input1.Text);
             double secondOperand = Convert.ToDouble(Input2.Text);
             ITwoArgumentsCalculator calculator = Factory.Calculate(((Button)sender).Name);
-            double result = calculator.Calculate(firstOperand, secondOperand);
+            double result = calculator.Calculate(firstOperand,secondOperand);
 
 
-            Result.Text = result.ToString();
-
-        }
-
-        private void Square_root_Click(object sender, EventArgs e)
-        {
-            double firstoperand = Convert.ToDouble(Input1.Text);
-            double result = firstoperand*firstoperand;
-            Result.Text = result.ToString();
-
-        }
-
-        private void Root_extraction_Click(object sender, EventArgs e)
-        {
-            double firstoperand = Convert.ToDouble(Input1.Text);
-            double result = Math.Sqrt(firstoperand);
-            Result.Text = result.ToString();
+            Result.Text = result.ToString(CultureInfo.InvariantCulture);
 
         }
     }
