@@ -51,6 +51,7 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Operations\ArcsinTests.cs" />
     <Compile Include="Operations\AverageTests.cs" />
+    <Compile Include="Operations\CosTests.cs" />
     <Compile Include="Operations\CTanTests.cs" />
     <Compile Include="Operations\DivisionByOneTests.cs" />
     <Compile Include="Operations\DivisionTests.cs" />
