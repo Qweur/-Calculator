@@ -46,6 +46,7 @@
             this.CTan = new System.Windows.Forms.Button();
             this.DivisionByOne = new System.Windows.Forms.Button();
             this.LnX = new System.Windows.Forms.Button();
+            this.LogTwo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -220,11 +221,22 @@
             this.LnX.UseVisualStyleBackColor = true;
             this.LnX.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // LogTwo
+            // 
+            this.LogTwo.Location = new System.Drawing.Point(93, 262);
+            this.LogTwo.Name = "LogTwo";
+            this.LogTwo.Size = new System.Drawing.Size(75, 23);
+            this.LogTwo.TabIndex = 21;
+            this.LogTwo.Text = "log2(x)";
+            this.LogTwo.UseVisualStyleBackColor = true;
+            this.LogTwo.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.LogTwo);
             this.Controls.Add(this.LnX);
             this.Controls.Add(this.DivisionByOne);
             this.Controls.Add(this.CTan);
@@ -270,6 +282,7 @@
         private System.Windows.Forms.Button CTan;
         private System.Windows.Forms.Button DivisionByOne;
         private System.Windows.Forms.Button LnX;
+        private System.Windows.Forms.Button LogTwo;
     }
 }
 

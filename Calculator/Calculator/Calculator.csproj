@@ -52,6 +52,7 @@
     <Compile Include="10\GeometricMean.cs" />
     <Compile Include="10\LnX.cs" />
     <Compile Include="10\Logarithms.cs" />
+    <Compile Include="10\LogTwo.cs" />
     <Compile Include="10\Max.cs" />
     <Compile Include="10\RemainderOfTheDivision.cs" />
     <Compile Include="10\Sin.cs" />

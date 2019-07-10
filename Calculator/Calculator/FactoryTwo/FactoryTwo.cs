@@ -25,6 +25,8 @@ namespace Calculator.FactoryTwo
                     return new DivisionByOne();
                 case "LnX":
                     return new LnX();
+                case "LogTwo":
+                    return new LogTwo();
                 default:
                     throw new Exception("Неизвестная операция");
             }
