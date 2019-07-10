@@ -52,6 +52,7 @@
     <Compile Include="FactoryTwo\Operations\CTan.cs" />
     <Compile Include="FactoryTwo\Operations\DivisionByOne.cs" />
     <Compile Include="FactoryOne\Operations\GeometricMean.cs" />
+    <Compile Include="FactoryTwo\Operations\Exponent.cs" />
     <Compile Include="FactoryTwo\Operations\LnX.cs" />
     <Compile Include="FactoryOne\Operations\Logarithms.cs" />
     <Compile Include="FactoryTwo\Operations\LogTwo.cs" />

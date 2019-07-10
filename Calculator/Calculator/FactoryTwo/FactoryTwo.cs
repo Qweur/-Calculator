@@ -28,6 +28,8 @@ namespace Calculator.FactoryTwo
                     return new LogTwo();
                 case "Cos":
                     return new Cos();
+                case "Exponent":
+                    return new Exponent();
                 default:
                     throw new Exception("Неизвестная операция");
             }

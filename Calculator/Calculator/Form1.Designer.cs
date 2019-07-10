@@ -50,6 +50,7 @@
             this.Min = new System.Windows.Forms.Button();
             this.Average = new System.Windows.Forms.Button();
             this.Cos = new System.Windows.Forms.Button();
+            this.Exponent = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -264,11 +265,22 @@
             this.Cos.UseVisualStyleBackColor = true;
             this.Cos.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // Exponent
+            // 
+            this.Exponent.Location = new System.Drawing.Point(12, 204);
+            this.Exponent.Name = "Exponent";
+            this.Exponent.Size = new System.Drawing.Size(75, 23);
+            this.Exponent.TabIndex = 25;
+            this.Exponent.Text = "e^x";
+            this.Exponent.UseVisualStyleBackColor = true;
+            this.Exponent.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.Exponent);
             this.Controls.Add(this.Cos);
             this.Controls.Add(this.Average);
             this.Controls.Add(this.Min);
@@ -322,6 +334,7 @@
         private System.Windows.Forms.Button Min;
         private System.Windows.Forms.Button Average;
         private System.Windows.Forms.Button Cos;
+        private System.Windows.Forms.Button Exponent;
     }
 }
 
