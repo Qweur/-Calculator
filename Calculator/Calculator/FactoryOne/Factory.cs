@@ -26,7 +26,8 @@ namespace Calculator.FactoryOne
                     return new Logarithms();
                 case "RemainderOfTheDivision":
                     return new RemainderOfTheDivision();
-
+                case "Max":
+                    return new Max();
                 default:
                     throw new Exception("Неизвестная операция");
             }

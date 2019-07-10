@@ -39,6 +39,7 @@
             this.Root_extraction = new System.Windows.Forms.Button();
             this.Logarithms = new System.Windows.Forms.Button();
             this.RemainderOfTheDivision = new System.Windows.Forms.Button();
+            this.Max = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -143,11 +144,22 @@
             this.RemainderOfTheDivision.UseVisualStyleBackColor = true;
             this.RemainderOfTheDivision.Click += new System.EventHandler(this.Calculate);
             // 
+            // Max
+            // 
+            this.Max.Location = new System.Drawing.Point(350, 57);
+            this.Max.Name = "Max";
+            this.Max.Size = new System.Drawing.Size(97, 23);
+            this.Max.TabIndex = 14;
+            this.Max.Text = "Максимальное";
+            this.Max.UseVisualStyleBackColor = true;
+            this.Max.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(437, 169);
+            this.ClientSize = new System.Drawing.Size(496, 225);
+            this.Controls.Add(this.Max);
             this.Controls.Add(this.RemainderOfTheDivision);
             this.Controls.Add(this.Logarithms);
             this.Controls.Add(this.Root_extraction);
@@ -179,6 +191,7 @@
         private System.Windows.Forms.Button Root_extraction;
         private System.Windows.Forms.Button Logarithms;
         private System.Windows.Forms.Button RemainderOfTheDivision;
+        private System.Windows.Forms.Button Max;
     }
 }
 
