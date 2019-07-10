@@ -2,7 +2,7 @@
 
 namespace Calculator.FactoryTwo.Operations
 {
-    class Arcsin : IOneArgumentsCalculator
+    public class Arcsin : IOneArgumentsCalculator
     {
         public double CalculateTwo(double first)
         {

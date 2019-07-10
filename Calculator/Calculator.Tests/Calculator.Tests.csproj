@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Operations\ArcsinTests.cs" />
     <Compile Include="Operations\DivisionTests.cs" />
     <Compile Include="Operations\GeometricMeanTests.cs" />
     <Compile Include="Operations\LogarithmsTests.cs" />
