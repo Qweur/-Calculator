@@ -1,6 +1,6 @@
 ﻿namespace Calculator.FactoryOne.Operations
 {
-    class RemainderOfTheDivision : ITwoArgumentsCalculator
+    public class RemainderOfTheDivision : ITwoArgumentsCalculator
     {
         public double Calculate(double first, double second)
         {
