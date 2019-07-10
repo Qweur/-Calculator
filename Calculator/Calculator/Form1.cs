@@ -16,6 +16,7 @@ namespace Calculator
         private void Input1_TextChanged(object sender, EventArgs e)
         {
 
+
         }
 
         private void Calculate_Two(object sender, EventArgs e)
