@@ -43,6 +43,8 @@
             this.GeometricMean = new System.Windows.Forms.Button();
             this.Sin = new System.Windows.Forms.Button();
             this.Arcsin = new System.Windows.Forms.Button();
+            this.CTan = new System.Windows.Forms.Button();
+            this.DivisionByOne = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -187,11 +189,33 @@
             this.Arcsin.UseVisualStyleBackColor = true;
             this.Arcsin.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // CTan
+            // 
+            this.CTan.Location = new System.Drawing.Point(93, 173);
+            this.CTan.Name = "CTan";
+            this.CTan.Size = new System.Drawing.Size(75, 25);
+            this.CTan.TabIndex = 18;
+            this.CTan.Text = "CTan";
+            this.CTan.UseVisualStyleBackColor = true;
+            this.CTan.Click += new System.EventHandler(this.Calculate_Two);
+            // 
+            // DivisionByOne
+            // 
+            this.DivisionByOne.Location = new System.Drawing.Point(93, 204);
+            this.DivisionByOne.Name = "DivisionByOne";
+            this.DivisionByOne.Size = new System.Drawing.Size(75, 23);
+            this.DivisionByOne.TabIndex = 19;
+            this.DivisionByOne.Text = "1/x";
+            this.DivisionByOne.UseVisualStyleBackColor = true;
+            this.DivisionByOne.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(496, 225);
+            this.Controls.Add(this.DivisionByOne);
+            this.Controls.Add(this.CTan);
             this.Controls.Add(this.Arcsin);
             this.Controls.Add(this.Sin);
             this.Controls.Add(this.GeometricMean);
@@ -231,6 +255,8 @@
         private System.Windows.Forms.Button GeometricMean;
         private System.Windows.Forms.Button Sin;
         private System.Windows.Forms.Button Arcsin;
+        private System.Windows.Forms.Button CTan;
+        private System.Windows.Forms.Button DivisionByOne;
     }
 }
 

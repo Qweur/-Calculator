@@ -19,7 +19,10 @@ namespace Calculator.FactoryTwo
                     return new Sin();
                 case "Arcsin":
                     return new Arcsin();
-
+                case "CTan":
+                    return new CTan();
+                case "DivisionByOne":
+                    return new DivisionByOne();
                 default:
                     throw new Exception("Неизвестная операция");
             }
