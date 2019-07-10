@@ -55,6 +55,7 @@
     <Compile Include="Operations\CTanTests.cs" />
     <Compile Include="Operations\DivisionByOneTests.cs" />
     <Compile Include="Operations\DivisionTests.cs" />
+    <Compile Include="Operations\ExponentTests.cs" />
     <Compile Include="Operations\GeometricMeanTests.cs" />
     <Compile Include="Operations\LnXTests.cs" />
     <Compile Include="Operations\LogarithmsTests.cs" />
