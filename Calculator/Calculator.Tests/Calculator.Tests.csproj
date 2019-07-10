@@ -66,6 +66,7 @@
     <Compile Include="Operations\MinTests.cs" />
     <Compile Include="Operations\Multiplication.Tests.cs" />
     <Compile Include="Operations\NegativeTests.cs" />
+    <Compile Include="Operations\RadiansTests.cs" />
     <Compile Include="Operations\RemainderOfTheDivisionTests.cs" />
     <Compile Include="Operations\RootExtractionTests.cs" />
     <Compile Include="Operations\RootTests.cs" />

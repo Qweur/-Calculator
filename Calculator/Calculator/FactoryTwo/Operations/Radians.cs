@@ -2,11 +2,11 @@
 
 namespace Calculator.FactoryTwo.Operations
 {
-    class Radians : IOneArgumentsCalculator
+  public  class Radians : IOneArgumentsCalculator
     {
         public double CalculateTwo(double first)
         {
-            return first * Math.PI / 180;
+            return first * (Math.PI / 180);
         }
     }
 }
