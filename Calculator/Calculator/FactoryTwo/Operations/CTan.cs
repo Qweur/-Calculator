@@ -2,7 +2,7 @@
 
 namespace Calculator.FactoryTwo.Operations
 {
-    class CTan : IOneArgumentsCalculator
+    public class CTan : IOneArgumentsCalculator
     {
         public double CalculateTwo(double first)
         {
