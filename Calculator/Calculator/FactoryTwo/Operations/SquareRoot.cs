@@ -1,6 +1,6 @@
 ﻿namespace Calculator.FactoryTwo.Operations
 {
-    class SquareRoot : IOneArgumentsCalculator
+    public class SquareRoot : IOneArgumentsCalculator
     {
         public double CalculateTwo(double first)
         {

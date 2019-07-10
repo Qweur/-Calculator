@@ -61,6 +61,7 @@
     <Compile Include="Operations\Multiplication.Tests.cs" />
     <Compile Include="Operations\RemainderOfTheDivisionTests.cs" />
     <Compile Include="Operations\SinTests.cs" />
+    <Compile Include="Operations\SquareRootTests.cs" />
     <Compile Include="Operations\SubtractionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
