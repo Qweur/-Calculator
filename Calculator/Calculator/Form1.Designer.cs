@@ -56,6 +56,7 @@
             this.Exponentiation = new System.Windows.Forms.Button();
             this.Root = new System.Windows.Forms.Button();
             this.Degrees = new System.Windows.Forms.Button();
+            this.Radians = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -330,11 +331,22 @@
             this.Degrees.UseVisualStyleBackColor = true;
             this.Degrees.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // Radians
+            // 
+            this.Radians.Location = new System.Drawing.Point(206, 275);
+            this.Radians.Name = "Radians";
+            this.Radians.Size = new System.Drawing.Size(127, 38);
+            this.Radians.TabIndex = 31;
+            this.Radians.Text = "Перевод градусов в радианы";
+            this.Radians.UseVisualStyleBackColor = true;
+            this.Radians.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.Radians);
             this.Controls.Add(this.Degrees);
             this.Controls.Add(this.Root);
             this.Controls.Add(this.Exponentiation);
@@ -400,6 +412,7 @@
         private System.Windows.Forms.Button Exponentiation;
         private System.Windows.Forms.Button Root;
         private System.Windows.Forms.Button Degrees;
+        private System.Windows.Forms.Button Radians;
     }
 }
 

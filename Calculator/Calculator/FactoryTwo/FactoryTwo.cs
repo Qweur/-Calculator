@@ -36,6 +36,8 @@ namespace Calculator.FactoryTwo
                     return new Negative();
                 case "Degrees":
                     return new Degrees();
+                case "Radians":
+                    return new Radians();
                 default:
                     throw new Exception("Неизвестная операция");
             }
