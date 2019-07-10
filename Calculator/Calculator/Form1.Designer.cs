@@ -80,7 +80,7 @@
             this.Addition.Name = "Addition";
             this.Addition.Size = new System.Drawing.Size(75, 23);
             this.Addition.TabIndex = 3;
-            this.Addition.Text = "Сложение";
+            this.Addition.Text = "+";
             this.Addition.UseVisualStyleBackColor = true;
             this.Addition.Click += new System.EventHandler(this.Calculate);
             // 
@@ -90,7 +90,7 @@
             this.Subtraction.Name = "Subtraction";
             this.Subtraction.Size = new System.Drawing.Size(75, 23);
             this.Subtraction.TabIndex = 4;
-            this.Subtraction.Text = "Вычитание";
+            this.Subtraction.Text = "-";
             this.Subtraction.UseVisualStyleBackColor = true;
             this.Subtraction.Click += new System.EventHandler(this.Calculate);
             // 
@@ -100,7 +100,7 @@
             this.Multiplication.Name = "Multiplication";
             this.Multiplication.Size = new System.Drawing.Size(75, 23);
             this.Multiplication.TabIndex = 6;
-            this.Multiplication.Text = "Умножение";
+            this.Multiplication.Text = "*";
             this.Multiplication.UseVisualStyleBackColor = true;
             this.Multiplication.Click += new System.EventHandler(this.Calculate);
             // 
@@ -110,7 +110,7 @@
             this.Division.Name = "Division";
             this.Division.Size = new System.Drawing.Size(75, 23);
             this.Division.TabIndex = 8;
-            this.Division.Text = "Деление";
+            this.Division.Text = "/";
             this.Division.UseVisualStyleBackColor = true;
             this.Division.Click += new System.EventHandler(this.Calculate);
             // 
@@ -123,27 +123,27 @@
             // 
             // Square_root
             // 
-            this.Square_root.Location = new System.Drawing.Point(206, 57);
+            this.Square_root.Location = new System.Drawing.Point(13, 174);
             this.Square_root.Name = "Square_root";
-            this.Square_root.Size = new System.Drawing.Size(127, 23);
+            this.Square_root.Size = new System.Drawing.Size(75, 24);
             this.Square_root.TabIndex = 10;
-            this.Square_root.Text = "Корень квадратный ";
+            this.Square_root.Text = "sqrt(x)";
             this.Square_root.UseVisualStyleBackColor = true;
             this.Square_root.Click += new System.EventHandler(this.Calculate_Two);
             // 
             // Root_extraction
             // 
-            this.Root_extraction.Location = new System.Drawing.Point(206, 86);
+            this.Root_extraction.Location = new System.Drawing.Point(94, 175);
             this.Root_extraction.Name = "Root_extraction";
-            this.Root_extraction.Size = new System.Drawing.Size(127, 23);
+            this.Root_extraction.Size = new System.Drawing.Size(75, 23);
             this.Root_extraction.TabIndex = 11;
-            this.Root_extraction.Text = "Извлечение корня";
+            this.Root_extraction.Text = "x^2";
             this.Root_extraction.UseVisualStyleBackColor = true;
             this.Root_extraction.Click += new System.EventHandler(this.Calculate_Two);
             // 
             // Logarithms
             // 
-            this.Logarithms.Location = new System.Drawing.Point(12, 115);
+            this.Logarithms.Location = new System.Drawing.Point(13, 350);
             this.Logarithms.Name = "Logarithms";
             this.Logarithms.Size = new System.Drawing.Size(75, 23);
             this.Logarithms.TabIndex = 12;
@@ -153,7 +153,7 @@
             // 
             // RemainderOfTheDivision
             // 
-            this.RemainderOfTheDivision.Location = new System.Drawing.Point(206, 115);
+            this.RemainderOfTheDivision.Location = new System.Drawing.Point(193, 233);
             this.RemainderOfTheDivision.Name = "RemainderOfTheDivision";
             this.RemainderOfTheDivision.Size = new System.Drawing.Size(127, 23);
             this.RemainderOfTheDivision.TabIndex = 13;
@@ -163,17 +163,17 @@
             // 
             // Max
             // 
-            this.Max.Location = new System.Drawing.Point(350, 57);
+            this.Max.Location = new System.Drawing.Point(94, 144);
             this.Max.Name = "Max";
-            this.Max.Size = new System.Drawing.Size(97, 23);
+            this.Max.Size = new System.Drawing.Size(75, 23);
             this.Max.TabIndex = 14;
-            this.Max.Text = "Максимальное";
+            this.Max.Text = "max(x,y)";
             this.Max.UseVisualStyleBackColor = true;
             this.Max.Click += new System.EventHandler(this.Calculate);
             // 
             // GeometricMean
             // 
-            this.GeometricMean.Location = new System.Drawing.Point(206, 144);
+            this.GeometricMean.Location = new System.Drawing.Point(193, 57);
             this.GeometricMean.Name = "GeometricMean";
             this.GeometricMean.Size = new System.Drawing.Size(127, 36);
             this.GeometricMean.TabIndex = 15;
@@ -183,17 +183,17 @@
             // 
             // Sin
             // 
-            this.Sin.Location = new System.Drawing.Point(93, 115);
+            this.Sin.Location = new System.Drawing.Point(13, 115);
             this.Sin.Name = "Sin";
             this.Sin.Size = new System.Drawing.Size(75, 23);
             this.Sin.TabIndex = 16;
-            this.Sin.Text = "sin";
+            this.Sin.Text = "sin(x)";
             this.Sin.UseVisualStyleBackColor = true;
             this.Sin.Click += new System.EventHandler(this.Calculate_Two);
             // 
             // Arcsin
             // 
-            this.Arcsin.Location = new System.Drawing.Point(93, 144);
+            this.Arcsin.Location = new System.Drawing.Point(94, 321);
             this.Arcsin.Name = "Arcsin";
             this.Arcsin.Size = new System.Drawing.Size(75, 23);
             this.Arcsin.TabIndex = 17;
@@ -203,7 +203,7 @@
             // 
             // CTan
             // 
-            this.CTan.Location = new System.Drawing.Point(93, 173);
+            this.CTan.Location = new System.Drawing.Point(13, 319);
             this.CTan.Name = "CTan";
             this.CTan.Size = new System.Drawing.Size(75, 25);
             this.CTan.TabIndex = 18;
@@ -253,7 +253,7 @@
             // 
             // Average
             // 
-            this.Average.Location = new System.Drawing.Point(206, 186);
+            this.Average.Location = new System.Drawing.Point(193, 99);
             this.Average.Name = "Average";
             this.Average.Size = new System.Drawing.Size(127, 36);
             this.Average.TabIndex = 23;
@@ -263,7 +263,7 @@
             // 
             // Cos
             // 
-            this.Cos.Location = new System.Drawing.Point(12, 175);
+            this.Cos.Location = new System.Drawing.Point(94, 115);
             this.Cos.Name = "Cos";
             this.Cos.Size = new System.Drawing.Size(75, 23);
             this.Cos.TabIndex = 24;
@@ -323,7 +323,7 @@
             // 
             // Degrees
             // 
-            this.Degrees.Location = new System.Drawing.Point(206, 233);
+            this.Degrees.Location = new System.Drawing.Point(193, 144);
             this.Degrees.Name = "Degrees";
             this.Degrees.Size = new System.Drawing.Size(127, 36);
             this.Degrees.TabIndex = 30;
@@ -333,7 +333,7 @@
             // 
             // Radians
             // 
-            this.Radians.Location = new System.Drawing.Point(206, 275);
+            this.Radians.Location = new System.Drawing.Point(193, 186);
             this.Radians.Name = "Radians";
             this.Radians.Size = new System.Drawing.Size(127, 38);
             this.Radians.TabIndex = 31;
@@ -345,7 +345,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(578, 326);
+            this.ClientSize = new System.Drawing.Size(443, 384);
             this.Controls.Add(this.Radians);
             this.Controls.Add(this.Degrees);
             this.Controls.Add(this.Root);

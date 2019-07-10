@@ -1,5 +1,4 @@
 ﻿using System;
-using Calculator.FactoryOne;
 
 namespace Calculator.FactoryOne.Operations
 {
