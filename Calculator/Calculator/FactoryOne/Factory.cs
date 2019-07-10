@@ -28,6 +28,8 @@ namespace Calculator.FactoryOne
                     return new RemainderOfTheDivision();
                 case "Max":
                     return new Max();
+                case "GeometricMean":
+                    return new GeometricMean();
                 default:
                     throw new Exception("Неизвестная операция");
             }

@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10\GeometricMean.cs" />
     <Compile Include="10\Logarithms.cs" />
     <Compile Include="10\Max.cs" />
     <Compile Include="10\RemainderOfTheDivision.cs" />

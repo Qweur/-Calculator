@@ -40,6 +40,7 @@
             this.Logarithms = new System.Windows.Forms.Button();
             this.RemainderOfTheDivision = new System.Windows.Forms.Button();
             this.Max = new System.Windows.Forms.Button();
+            this.GeometricMean = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -154,11 +155,22 @@
             this.Max.UseVisualStyleBackColor = true;
             this.Max.Click += new System.EventHandler(this.Calculate);
             // 
+            // GeometricMean
+            // 
+            this.GeometricMean.Location = new System.Drawing.Point(206, 144);
+            this.GeometricMean.Name = "GeometricMean";
+            this.GeometricMean.Size = new System.Drawing.Size(127, 36);
+            this.GeometricMean.TabIndex = 15;
+            this.GeometricMean.Text = "Среднее геометрическое";
+            this.GeometricMean.UseVisualStyleBackColor = true;
+            this.GeometricMean.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(496, 225);
+            this.Controls.Add(this.GeometricMean);
             this.Controls.Add(this.Max);
             this.Controls.Add(this.RemainderOfTheDivision);
             this.Controls.Add(this.Logarithms);
@@ -192,6 +204,7 @@
         private System.Windows.Forms.Button Logarithms;
         private System.Windows.Forms.Button RemainderOfTheDivision;
         private System.Windows.Forms.Button Max;
+        private System.Windows.Forms.Button GeometricMean;
     }
 }
 
