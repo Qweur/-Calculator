@@ -2,7 +2,7 @@
 using Calculator.FactoryOne;
 using Calculator.FactoryTwo;
 
-namespace Calculator._10
+namespace Calculator.FactoryOne.Operations
 {
     class Logarithms : ITwoArgumentsCalculator
     {

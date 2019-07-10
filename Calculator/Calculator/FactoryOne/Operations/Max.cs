@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Calculator.FactoryOne;
 
-namespace Calculator._10
+namespace Calculator.FactoryOne.Operations
 {
     class Max : ITwoArgumentsCalculator
     {

@@ -7,11 +7,11 @@ using Calculator.FactoryOne;
 
 namespace Calculator.FactoryOne.Operations
 {
-    class RemainderOfTheDivision : ITwoArgumentsCalculator
+    public class Average : ITwoArgumentsCalculator
     {
         public double Calculate(double first, double second)
         {
-            return first % second;
+            return (first * second)/2;
         }
     }
 }

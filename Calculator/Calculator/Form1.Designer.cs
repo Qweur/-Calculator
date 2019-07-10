@@ -251,6 +251,7 @@
             this.Average.TabIndex = 23;
             this.Average.Text = "Среднее арифметическое ";
             this.Average.UseVisualStyleBackColor = true;
+            this.Average.Click += new System.EventHandler(this.Calculate);
             // 
             // Form1
             // 

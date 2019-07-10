@@ -1,7 +1,7 @@
 ﻿using System;
 using Calculator.FactoryOne;
 
-namespace Calculator
+namespace Calculator.FactoryOne.Operations
 {
     public class Min : ITwoArgumentsCalculator
     {
