@@ -55,6 +55,7 @@
             this.Negative = new System.Windows.Forms.Button();
             this.Exponentiation = new System.Windows.Forms.Button();
             this.Root = new System.Windows.Forms.Button();
+            this.Degrees = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -319,11 +320,22 @@
             this.Root.UseVisualStyleBackColor = true;
             this.Root.Click += new System.EventHandler(this.Calculate);
             // 
+            // Degrees
+            // 
+            this.Degrees.Location = new System.Drawing.Point(206, 233);
+            this.Degrees.Name = "Degrees";
+            this.Degrees.Size = new System.Drawing.Size(127, 36);
+            this.Degrees.TabIndex = 30;
+            this.Degrees.Text = "Перевод радиан в градуссы";
+            this.Degrees.UseVisualStyleBackColor = true;
+            this.Degrees.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.Degrees);
             this.Controls.Add(this.Root);
             this.Controls.Add(this.Exponentiation);
             this.Controls.Add(this.Negative);
@@ -387,6 +399,7 @@
         private System.Windows.Forms.Button Negative;
         private System.Windows.Forms.Button Exponentiation;
         private System.Windows.Forms.Button Root;
+        private System.Windows.Forms.Button Degrees;
     }
 }
 

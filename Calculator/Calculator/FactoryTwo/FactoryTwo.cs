@@ -34,6 +34,8 @@ namespace Calculator.FactoryTwo
                     return new TenToTheDegree();
                 case "Negative":
                     return new Negative();
+                case "Degrees":
+                    return new Degrees();
                 default:
                     throw new Exception("Неизвестная операция");
             }
