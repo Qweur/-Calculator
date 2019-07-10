@@ -53,6 +53,7 @@
     <Compile Include="Operations\DivisionByOneTests.cs" />
     <Compile Include="Operations\DivisionTests.cs" />
     <Compile Include="Operations\GeometricMeanTests.cs" />
+    <Compile Include="Operations\LnXTests.cs" />
     <Compile Include="Operations\LogarithmsTests.cs" />
     <Compile Include="Operations\MaxTests.cs" />
     <Compile Include="Operations\Multiplication.Tests.cs" />

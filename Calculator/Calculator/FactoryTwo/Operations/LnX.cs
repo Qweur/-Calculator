@@ -2,7 +2,7 @@
 
 namespace Calculator.FactoryTwo.Operations
 {
-    class LnX : IOneArgumentsCalculator
+    public class LnX : IOneArgumentsCalculator
     {
         public double CalculateTwo(double first)
         {
