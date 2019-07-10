@@ -3,7 +3,7 @@ using Calculator.FactoryOne;
 
 namespace Calculator
 {
-    public class min : ITwoArgumentsCalculator
+    public class Min : ITwoArgumentsCalculator
     {
         public double Calculate(double first, double second)
         {

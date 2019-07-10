@@ -30,6 +30,8 @@ namespace Calculator.FactoryOne
                     return new Max();
                 case "GeometricMean":
                     return new GeometricMean();
+                case "Min":
+                    return new Min();
                 default:
                     throw new Exception("Неизвестная операция");
             }

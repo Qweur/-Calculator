@@ -48,6 +48,7 @@
             this.LnX = new System.Windows.Forms.Button();
             this.LogTwo = new System.Windows.Forms.Button();
             this.Min = new System.Windows.Forms.Button();
+            this.Average = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -242,11 +243,21 @@
             this.Min.UseVisualStyleBackColor = true;
             this.Min.Click += new System.EventHandler(this.Calculate);
             // 
+            // Average
+            // 
+            this.Average.Location = new System.Drawing.Point(206, 186);
+            this.Average.Name = "Average";
+            this.Average.Size = new System.Drawing.Size(127, 36);
+            this.Average.TabIndex = 23;
+            this.Average.Text = "Среднее арифметическое ";
+            this.Average.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.Average);
             this.Controls.Add(this.Min);
             this.Controls.Add(this.LogTwo);
             this.Controls.Add(this.LnX);
@@ -296,6 +307,7 @@
         private System.Windows.Forms.Button LnX;
         private System.Windows.Forms.Button LogTwo;
         private System.Windows.Forms.Button Min;
+        private System.Windows.Forms.Button Average;
     }
 }
 

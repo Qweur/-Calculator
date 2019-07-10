@@ -69,7 +69,7 @@
     <Compile Include="FactoryTwo\IOneArgumentsCalculator.cs" />
     <Compile Include="FactoryOne\ITwoArgumentsCalculator.cs" />
     <Compile Include="FactoryOne\Operations\Multiplication.cs" />
-    <Compile Include="min.cs" />
+    <Compile Include="Min.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FactoryTwo\Operations\RootExtraction.cs" />
