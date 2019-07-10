@@ -1,0 +1,22 @@
+﻿using NUnit.Framework;
+
+namespace Calculator.Tests.Operations
+{
+    [TestFixture]
+
+    public class NegativeTests
+    {
+        [TestCase(-3, 3)]
+        [TestCase(2, -2)]
+        [TestCase(16, -16)]
+
+        public void CalculateTest(
+double first,
+double expected)
+        {
+            var calculator = new Calculator.FactoryTwo.Operations.Negative();
+            var actualResult = calculator.CalculateTwo(first);
+            Assert.AreEqual((int)expected, (int)actualResult);
+        }
+    }
+}
