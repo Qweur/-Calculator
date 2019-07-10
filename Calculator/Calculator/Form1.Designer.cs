@@ -109,6 +109,7 @@
             this.Square_root.TabIndex = 10;
             this.Square_root.Text = "Корень квадратный ";
             this.Square_root.UseVisualStyleBackColor = true;
+            this.Square_root.Click += new System.EventHandler(this.Square_root_Click);
             // 
             // Root_extraction
             // 
@@ -118,6 +119,7 @@
             this.Root_extraction.TabIndex = 11;
             this.Root_extraction.Text = "Извлечение корня";
             this.Root_extraction.UseVisualStyleBackColor = true;
+            this.Root_extraction.Click += new System.EventHandler(this.Root_extraction_Click);
             // 
             // Form1
             // 

@@ -56,5 +56,21 @@ namespace Calculator
             Result.Text = result.ToString();
 
         }
+
+        private void Square_root_Click(object sender, EventArgs e)
+        {
+            double firstoperand = Convert.ToDouble(Input1.Text);
+            double result = firstoperand*firstoperand;
+            Result.Text = result.ToString();
+
+        }
+
+        private void Root_extraction_Click(object sender, EventArgs e)
+        {
+            double firstoperand = Convert.ToDouble(Input1.Text);
+            double result = Math.Sqrt(firstoperand);
+            Result.Text = result.ToString();
+
+        }
     }
 }
