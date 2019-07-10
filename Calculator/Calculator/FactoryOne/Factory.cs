@@ -33,6 +33,8 @@ namespace Calculator.FactoryOne
                     return new Min();
                 case "Average":
                     return new Average();
+                case "Exponentiation":
+                    return new Exponentiation();
 
                 default:
                     throw new Exception("Неизвестная операция");

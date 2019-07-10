@@ -53,6 +53,7 @@
             this.Exponent = new System.Windows.Forms.Button();
             this.TenToTheDegree = new System.Windows.Forms.Button();
             this.Negative = new System.Windows.Forms.Button();
+            this.Exponentiation = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -297,11 +298,22 @@
             this.Negative.UseVisualStyleBackColor = true;
             this.Negative.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // Exponentiation
+            // 
+            this.Exponentiation.Location = new System.Drawing.Point(13, 290);
+            this.Exponentiation.Name = "Exponentiation";
+            this.Exponentiation.Size = new System.Drawing.Size(75, 23);
+            this.Exponentiation.TabIndex = 28;
+            this.Exponentiation.Text = "x^y";
+            this.Exponentiation.UseVisualStyleBackColor = true;
+            this.Exponentiation.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.Exponentiation);
             this.Controls.Add(this.Negative);
             this.Controls.Add(this.TenToTheDegree);
             this.Controls.Add(this.Exponent);
@@ -361,6 +373,7 @@
         private System.Windows.Forms.Button Exponent;
         private System.Windows.Forms.Button TenToTheDegree;
         private System.Windows.Forms.Button Negative;
+        private System.Windows.Forms.Button Exponentiation;
     }
 }
 

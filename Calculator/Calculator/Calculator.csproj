@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FactoryOne\Operations\Average.cs" />
+    <Compile Include="FactoryOne\Operations\Exponentiation.cs" />
     <Compile Include="FactoryTwo\Operations\Arcsin.cs" />
     <Compile Include="FactoryTwo\Operations\Cos.cs" />
     <Compile Include="FactoryTwo\Operations\CTan.cs" />
