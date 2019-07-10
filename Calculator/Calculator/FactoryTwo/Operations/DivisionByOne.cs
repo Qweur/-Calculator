@@ -1,6 +1,6 @@
 ﻿namespace Calculator.FactoryTwo.Operations
 {
-    class MultiplicationByTen : IOneArgumentsCalculator
+    public class DivisionByOne : IOneArgumentsCalculator
     {
         public double CalculateTwo(double first)
         {

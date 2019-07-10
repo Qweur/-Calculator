@@ -21,7 +21,7 @@ namespace Calculator.FactoryTwo
                 case "CTan":
                     return new CTan();
                 case "DivisionByOne":
-                    return new MultiplicationByTen();
+                    return new DivisionByOne();
                 case "LnX":
                     return new LnX();
                 case "LogTwo":
