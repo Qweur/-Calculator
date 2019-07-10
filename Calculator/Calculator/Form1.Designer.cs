@@ -52,6 +52,7 @@
             this.Cos = new System.Windows.Forms.Button();
             this.Exponent = new System.Windows.Forms.Button();
             this.TenToTheDegree = new System.Windows.Forms.Button();
+            this.Negative = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -286,11 +287,22 @@
             this.TenToTheDegree.UseVisualStyleBackColor = true;
             this.TenToTheDegree.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // Negative
+            // 
+            this.Negative.Location = new System.Drawing.Point(13, 261);
+            this.Negative.Name = "Negative";
+            this.Negative.Size = new System.Drawing.Size(75, 23);
+            this.Negative.TabIndex = 27;
+            this.Negative.Text = "–x";
+            this.Negative.UseVisualStyleBackColor = true;
+            this.Negative.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.Negative);
             this.Controls.Add(this.TenToTheDegree);
             this.Controls.Add(this.Exponent);
             this.Controls.Add(this.Cos);
@@ -348,6 +360,7 @@
         private System.Windows.Forms.Button Cos;
         private System.Windows.Forms.Button Exponent;
         private System.Windows.Forms.Button TenToTheDegree;
+        private System.Windows.Forms.Button Negative;
     }
 }
 

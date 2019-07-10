@@ -50,6 +50,7 @@
     <Compile Include="FactoryTwo\Operations\Arcsin.cs" />
     <Compile Include="FactoryTwo\Operations\Cos.cs" />
     <Compile Include="FactoryTwo\Operations\CTan.cs" />
+    <Compile Include="FactoryTwo\Operations\Negative.cs" />
     <Compile Include="FactoryTwo\Operations\TenToTheDegree.cs" />
     <Compile Include="FactoryOne\Operations\GeometricMean.cs" />
     <Compile Include="FactoryTwo\Operations\Exponent.cs" />
