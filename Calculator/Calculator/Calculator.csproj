@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="10\Arcsin.cs" />
-    <Compile Include="10\CTan.cs" />
-    <Compile Include="10\DivisionByOne.cs" />
-    <Compile Include="10\GeometricMean.cs" />
-    <Compile Include="10\LnX.cs" />
-    <Compile Include="10\Logarithms.cs" />
-    <Compile Include="10\LogTwo.cs" />
-    <Compile Include="10\Max.cs" />
-    <Compile Include="10\RemainderOfTheDivision.cs" />
-    <Compile Include="10\Sin.cs" />
+    <Compile Include="FactoryTwo\Operations\Arcsin.cs" />
+    <Compile Include="FactoryTwo\Operations\CTan.cs" />
+    <Compile Include="FactoryTwo\Operations\DivisionByOne.cs" />
+    <Compile Include="FactoryOne\Operations\GeometricMean.cs" />
+    <Compile Include="FactoryTwo\Operations\LnX.cs" />
+    <Compile Include="FactoryOne\Operations\Logarithms.cs" />
+    <Compile Include="FactoryTwo\Operations\LogTwo.cs" />
+    <Compile Include="FactoryOne\Operations\Max.cs" />
+    <Compile Include="FactoryOne\Operations\RemainderOfTheDivision.cs" />
+    <Compile Include="FactoryTwo\Operations\Sin.cs" />
     <Compile Include="FactoryOne\Operations\Addition.cs" />
     <Compile Include="FactoryOne\Operations\Division.cs" />
     <Compile Include="FactoryOne\Factory.cs" />
@@ -69,6 +69,7 @@
     <Compile Include="FactoryTwo\IOneArgumentsCalculator.cs" />
     <Compile Include="FactoryOne\ITwoArgumentsCalculator.cs" />
     <Compile Include="FactoryOne\Operations\Multiplication.cs" />
+    <Compile Include="min.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FactoryTwo\Operations\RootExtraction.cs" />

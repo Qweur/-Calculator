@@ -47,6 +47,7 @@
             this.DivisionByOne = new System.Windows.Forms.Button();
             this.LnX = new System.Windows.Forms.Button();
             this.LogTwo = new System.Windows.Forms.Button();
+            this.Min = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -231,11 +232,22 @@
             this.LogTwo.UseVisualStyleBackColor = true;
             this.LogTwo.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // Min
+            // 
+            this.Min.Location = new System.Drawing.Point(12, 144);
+            this.Min.Name = "Min";
+            this.Min.Size = new System.Drawing.Size(75, 23);
+            this.Min.TabIndex = 22;
+            this.Min.Text = "min(x,y)";
+            this.Min.UseVisualStyleBackColor = true;
+            this.Min.Click += new System.EventHandler(this.Calculate);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.Min);
             this.Controls.Add(this.LogTwo);
             this.Controls.Add(this.LnX);
             this.Controls.Add(this.DivisionByOne);
@@ -283,6 +295,7 @@
         private System.Windows.Forms.Button DivisionByOne;
         private System.Windows.Forms.Button LnX;
         private System.Windows.Forms.Button LogTwo;
+        private System.Windows.Forms.Button Min;
     }
 }
 
