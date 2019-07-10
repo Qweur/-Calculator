@@ -35,6 +35,8 @@ namespace Calculator.FactoryOne
                     return new Average();
                 case "Exponentiation":
                     return new Exponentiation();
+                case "Root":
+                    return new Root();
 
                 default:
                     throw new Exception("Неизвестная операция");
