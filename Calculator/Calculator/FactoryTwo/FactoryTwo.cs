@@ -21,7 +21,7 @@ namespace Calculator.FactoryTwo
                 case "CTan":
                     return new CTan();
                 case "DivisionByOne":
-                    return new DivisionByOne();
+                    return new TenToTheDegree();
                 case "LnX":
                     return new LnX();
                 case "LogTwo":
@@ -30,6 +30,8 @@ namespace Calculator.FactoryTwo
                     return new Cos();
                 case "Exponent":
                     return new Exponent();
+                case "TenToTheDegree":
+                    return new TenToTheDegree();
                 default:
                     throw new Exception("Неизвестная операция");
             }

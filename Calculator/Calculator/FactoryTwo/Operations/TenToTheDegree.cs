@@ -7,11 +7,11 @@ using Calculator.FactoryTwo;
 
 namespace Calculator.FactoryTwo.Operations
 {
-    class DivisionByOne : IOneArgumentsCalculator
+    class TenToTheDegree : IOneArgumentsCalculator
     {
         public double CalculateTwo(double first)
         {
-            return  1 / first;
+            return Math.Pow(10, first);
         }
     }
 }

@@ -51,6 +51,7 @@
             this.Average = new System.Windows.Forms.Button();
             this.Cos = new System.Windows.Forms.Button();
             this.Exponent = new System.Windows.Forms.Button();
+            this.TenToTheDegree = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -181,7 +182,7 @@
             this.Sin.Name = "Sin";
             this.Sin.Size = new System.Drawing.Size(75, 23);
             this.Sin.TabIndex = 16;
-            this.Sin.Text = "Синус";
+            this.Sin.Text = "sin";
             this.Sin.UseVisualStyleBackColor = true;
             this.Sin.Click += new System.EventHandler(this.Calculate_Two);
             // 
@@ -191,7 +192,7 @@
             this.Arcsin.Name = "Arcsin";
             this.Arcsin.Size = new System.Drawing.Size(75, 23);
             this.Arcsin.TabIndex = 17;
-            this.Arcsin.Text = "Arcsin";
+            this.Arcsin.Text = "arcsin";
             this.Arcsin.UseVisualStyleBackColor = true;
             this.Arcsin.Click += new System.EventHandler(this.Calculate_Two);
             // 
@@ -201,7 +202,7 @@
             this.CTan.Name = "CTan";
             this.CTan.Size = new System.Drawing.Size(75, 25);
             this.CTan.TabIndex = 18;
-            this.CTan.Text = "CTan";
+            this.CTan.Text = "ctan";
             this.CTan.UseVisualStyleBackColor = true;
             this.CTan.Click += new System.EventHandler(this.Calculate_Two);
             // 
@@ -275,11 +276,22 @@
             this.Exponent.UseVisualStyleBackColor = true;
             this.Exponent.Click += new System.EventHandler(this.Calculate_Two);
             // 
+            // TenToTheDegree
+            // 
+            this.TenToTheDegree.Location = new System.Drawing.Point(13, 232);
+            this.TenToTheDegree.Name = "TenToTheDegree";
+            this.TenToTheDegree.Size = new System.Drawing.Size(75, 23);
+            this.TenToTheDegree.TabIndex = 26;
+            this.TenToTheDegree.Text = "10^x";
+            this.TenToTheDegree.UseVisualStyleBackColor = true;
+            this.TenToTheDegree.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(578, 326);
+            this.Controls.Add(this.TenToTheDegree);
             this.Controls.Add(this.Exponent);
             this.Controls.Add(this.Cos);
             this.Controls.Add(this.Average);
@@ -335,6 +347,7 @@
         private System.Windows.Forms.Button Average;
         private System.Windows.Forms.Button Cos;
         private System.Windows.Forms.Button Exponent;
+        private System.Windows.Forms.Button TenToTheDegree;
     }
 }
 
