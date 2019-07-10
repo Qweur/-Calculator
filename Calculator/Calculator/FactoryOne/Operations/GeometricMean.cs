@@ -2,7 +2,7 @@
 
 namespace Calculator.FactoryOne.Operations
 {
-    class GeometricMean : ITwoArgumentsCalculator
+     public class GeometricMean : ITwoArgumentsCalculator
     {
         public double Calculate(double first, double second)
         {

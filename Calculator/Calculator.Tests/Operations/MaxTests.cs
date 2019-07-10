@@ -8,10 +8,10 @@ namespace Calculator.Tests.Operations
         [Test]
         public void CalculateTest()
         {
-            var calculator = new Calculator.FactoryOne.Operations.RemainderOfTheDivision();
-            var actual = calculator.Calculate(80, 56);
+            var calculator = new Calculator.FactoryOne.Operations.Max();
+            var actual = calculator.Calculate(150, 20);
 
-            Assert.AreEqual(24, actual, 0.01);
+            Assert.AreEqual(150, actual, 0.01);
         }
     }
 }
