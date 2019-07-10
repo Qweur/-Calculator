@@ -3,7 +3,7 @@
 namespace Calculator.Tests.Operations
 {
     [TestFixture]
-    public class RemainderOfTheDivisionTests
+    public class MaxTests
     {
         [Test]
         public void CalculateTest()
