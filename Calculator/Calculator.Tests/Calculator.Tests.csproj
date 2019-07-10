@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Operations\DivisionTests.cs" />
+    <Compile Include="Operations\LogarithmsTests.cs" />
     <Compile Include="Operations\Multiplication.Tests.cs" />
     <Compile Include="Operations\SubtractionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
