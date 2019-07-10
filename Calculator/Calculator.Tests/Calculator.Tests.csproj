@@ -58,6 +58,7 @@
     <Compile Include="Operations\LogarithmsTests.cs" />
     <Compile Include="Operations\LogTwo.cs" />
     <Compile Include="Operations\MaxTests.cs" />
+    <Compile Include="Operations\MinTests.cs" />
     <Compile Include="Operations\Multiplication.Tests.cs" />
     <Compile Include="Operations\RemainderOfTheDivisionTests.cs" />
     <Compile Include="Operations\RootExtractionTests.cs" />

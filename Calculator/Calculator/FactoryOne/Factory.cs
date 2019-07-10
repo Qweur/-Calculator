@@ -26,7 +26,7 @@ namespace Calculator.FactoryOne
                 case "RemainderOfTheDivision":
                     return new RemainderOfTheDivision();
                 case "Max":
-                    return new Max();
+                    return new Min();
                 case "GeometricMean":
                     return new GeometricMean();
                 case "Min":
