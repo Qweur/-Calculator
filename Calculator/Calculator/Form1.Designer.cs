@@ -41,6 +41,7 @@
             this.RemainderOfTheDivision = new System.Windows.Forms.Button();
             this.Max = new System.Windows.Forms.Button();
             this.GeometricMean = new System.Windows.Forms.Button();
+            this.Sin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Input1
@@ -165,11 +166,22 @@
             this.GeometricMean.UseVisualStyleBackColor = true;
             this.GeometricMean.Click += new System.EventHandler(this.Calculate);
             // 
+            // Sin
+            // 
+            this.Sin.Location = new System.Drawing.Point(93, 115);
+            this.Sin.Name = "Sin";
+            this.Sin.Size = new System.Drawing.Size(75, 23);
+            this.Sin.TabIndex = 16;
+            this.Sin.Text = "Синус";
+            this.Sin.UseVisualStyleBackColor = true;
+            this.Sin.Click += new System.EventHandler(this.Calculate_Two);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(496, 225);
+            this.Controls.Add(this.Sin);
             this.Controls.Add(this.GeometricMean);
             this.Controls.Add(this.Max);
             this.Controls.Add(this.RemainderOfTheDivision);
@@ -205,6 +217,7 @@
         private System.Windows.Forms.Button RemainderOfTheDivision;
         private System.Windows.Forms.Button Max;
         private System.Windows.Forms.Button GeometricMean;
+        private System.Windows.Forms.Button Sin;
     }
 }
 

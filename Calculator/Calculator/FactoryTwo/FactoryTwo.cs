@@ -1,4 +1,5 @@
 ﻿using System;
+using Calculator._10;
 using Calculator.FactoryTwo.Operations;
 
 namespace Calculator.FactoryTwo
@@ -14,6 +15,8 @@ namespace Calculator.FactoryTwo
                     return new RootExtraction();
                 case "Square_root":
                     return new SquareRoot();
+                case "Sin":
+                    return new Sin();
 
                 default:
                     throw new Exception("Неизвестная операция");
