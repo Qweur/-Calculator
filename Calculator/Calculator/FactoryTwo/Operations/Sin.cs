@@ -2,7 +2,7 @@
 
 namespace Calculator.FactoryTwo.Operations
 {
-    class Sin : IOneArgumentsCalculator
+    public class Sin : IOneArgumentsCalculator
     {
         public double CalculateTwo(double first)
         {
