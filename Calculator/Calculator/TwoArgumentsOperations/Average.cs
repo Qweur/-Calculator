@@ -1,10 +1,10 @@
 ﻿namespace Calculator.TwoArgumentsOperations
 {/// <summary>
-/// Find arithmetic mean
+/// Count arithmetic mean
 /// </summary>
     public class Average : ITwoArgumentsCalculator
     {/// <summary>
-     /// 
+     /// Finding arithmetic mean
      /// </summary>
      /// <param name="first">
      /// Value of the first parameter

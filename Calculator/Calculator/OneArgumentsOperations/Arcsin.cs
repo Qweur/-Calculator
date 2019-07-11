@@ -3,7 +3,7 @@
 namespace Calculator.OneArgumentsOperations
 {
     /// <summary>
-    /// Count Arcsin
+    /// Count arcsin
     /// </summary>
     public class Arcsin : IOneArgumentsCalculator
     {
@@ -14,7 +14,7 @@ namespace Calculator.OneArgumentsOperations
         /// Value arcsin
         /// </param>
         /// <returns>
-        /// Arcsin results
+        /// arcsin results
         /// </returns>
         public double CalculateTwo(double first)
         {
