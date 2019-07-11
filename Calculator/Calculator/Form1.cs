@@ -22,7 +22,7 @@ namespace Calculator
         private void Calculate_Two(object sender, EventArgs e)
         {
             double firstOperand = Convert.ToDouble(Input1.Text);
-            IOneArgumentsCalculator calculator = FactoryTwo.CalculateTwo(((Button)sender).Name);
+            IOneArgumentsCalculator calculator = FactoryTwo.CreateCalculatorTwo(((Button)sender).Name);
             double result = calculator.CalculateTwo(firstOperand);
 
 

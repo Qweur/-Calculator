@@ -127,7 +127,7 @@
             this.Square_root.Name = "Square_root";
             this.Square_root.Size = new System.Drawing.Size(75, 24);
             this.Square_root.TabIndex = 10;
-            this.Square_root.Text = "sqrt(x)";
+            this.Square_root.Text = "x^2";
             this.Square_root.UseVisualStyleBackColor = true;
             this.Square_root.Click += new System.EventHandler(this.Calculate_Two);
             // 
@@ -137,7 +137,7 @@
             this.Root_extraction.Name = "Root_extraction";
             this.Root_extraction.Size = new System.Drawing.Size(75, 23);
             this.Root_extraction.TabIndex = 11;
-            this.Root_extraction.Text = "x^2";
+            this.Root_extraction.Text = "sqrt(x)";
             this.Root_extraction.UseVisualStyleBackColor = true;
             this.Root_extraction.Click += new System.EventHandler(this.Calculate_Two);
             // 
