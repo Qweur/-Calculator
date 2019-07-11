@@ -1,9 +1,19 @@
 ﻿using System;
 
 namespace Calculator.TwoArgumentsOperations
-{
-   public static class Factory
-    {
+{/// <summary>
+ /// Factory for a two argument
+ /// </summary>
+    public static class Factory
+    {/// <summary>
+     /// Factory
+     /// </summary>
+     /// <param name="name">
+     /// Operation name
+     /// </param>
+     /// <returns>
+     /// Create a new calculator with the desired action
+     /// </returns>
         public static ITwoArgumentsCalculator CreateCalculator(string name)
         {
 

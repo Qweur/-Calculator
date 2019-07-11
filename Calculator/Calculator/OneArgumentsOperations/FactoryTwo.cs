@@ -2,8 +2,19 @@
 
 namespace Calculator.OneArgumentsOperations
 {
+    /// <summary>
+    /// Factory for a one argument
+    /// </summary>
     public static class FactoryTwo
-    {
+    {/// <summary>
+     /// FactoryTwo
+     /// </summary>
+     /// <param name="name">
+     /// Operation name
+     /// </param>
+     /// <returns>
+     /// Create a new calculator with the desired action
+     /// </returns>
         public static IOneArgumentsCalculator CreateCalculatorTwo(string name)
         {
 
