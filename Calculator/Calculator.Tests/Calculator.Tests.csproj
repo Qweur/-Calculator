@@ -49,31 +49,32 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Operations\ArcsinTests.cs" />
-    <Compile Include="Operations\AverageTests.cs" />
-    <Compile Include="Operations\CosTests.cs" />
-    <Compile Include="Operations\CTanTests.cs" />
-    <Compile Include="Operations\DegreesTests.cs" />
-    <Compile Include="Operations\DivisionByOneTests.cs" />
-    <Compile Include="Operations\DivisionTests.cs" />
-    <Compile Include="Operations\ExponentiationTests.cs" />
-    <Compile Include="Operations\ExponentTests.cs" />
-    <Compile Include="Operations\GeometricMeanTests.cs" />
-    <Compile Include="Operations\LnXTests.cs" />
-    <Compile Include="Operations\LogarithmsTests.cs" />
-    <Compile Include="Operations\LogTwo.cs" />
-    <Compile Include="Operations\MaxTests.cs" />
-    <Compile Include="Operations\MinTests.cs" />
-    <Compile Include="Operations\Multiplication.Tests.cs" />
-    <Compile Include="Operations\NegativeTests.cs" />
-    <Compile Include="Operations\RadiansTests.cs" />
-    <Compile Include="Operations\RemainderOfTheDivisionTests.cs" />
-    <Compile Include="Operations\RootExtractionTests.cs" />
-    <Compile Include="Operations\RootTests.cs" />
-    <Compile Include="Operations\SinTests.cs" />
-    <Compile Include="Operations\SquareRootTests.cs" />
-    <Compile Include="Operations\SubtractionTests.cs" />
-    <Compile Include="Operations\TenToTheDegreeTests.cs" />
+    <Compile Include="OneArgumentsOperations\FactoryTests.cs" />
+    <Compile Include="TwoArgumentsOperations\ArcsinTests.cs" />
+    <Compile Include="OneArgumentsOperations\AverageTests.cs" />
+    <Compile Include="TwoArgumentsOperations\CosTests.cs" />
+    <Compile Include="TwoArgumentsOperations\CTanTests.cs" />
+    <Compile Include="TwoArgumentsOperations\DegreesTests.cs" />
+    <Compile Include="TwoArgumentsOperations\DivisionByOneTests.cs" />
+    <Compile Include="OneArgumentsOperations\DivisionTests.cs" />
+    <Compile Include="OneArgumentsOperations\ExponentiationTests.cs" />
+    <Compile Include="TwoArgumentsOperations\ExponentTests.cs" />
+    <Compile Include="OneArgumentsOperations\GeometricMeanTests.cs" />
+    <Compile Include="TwoArgumentsOperations\LnXTests.cs" />
+    <Compile Include="OneArgumentsOperations\LogarithmsTests.cs" />
+    <Compile Include="TwoArgumentsOperations\LogTwo.cs" />
+    <Compile Include="OneArgumentsOperations\MaxTests.cs" />
+    <Compile Include="OneArgumentsOperations\MinTests.cs" />
+    <Compile Include="OneArgumentsOperations\Multiplication.Tests.cs" />
+    <Compile Include="TwoArgumentsOperations\NegativeTests.cs" />
+    <Compile Include="TwoArgumentsOperations\RadiansTests.cs" />
+    <Compile Include="OneArgumentsOperations\RemainderOfTheDivisionTests.cs" />
+    <Compile Include="TwoArgumentsOperations\RootExtractionTests.cs" />
+    <Compile Include="OneArgumentsOperations\RootTests.cs" />
+    <Compile Include="TwoArgumentsOperations\SinTests.cs" />
+    <Compile Include="TwoArgumentsOperations\SquareRootTests.cs" />
+    <Compile Include="OneArgumentsOperations\SubtractionTests.cs" />
+    <Compile Include="TwoArgumentsOperations\TenToTheDegreeTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -83,7 +84,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Operations\AdditionTests.cs" />
+    <Compile Include="OneArgumentsOperations\AdditionTests.cs" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

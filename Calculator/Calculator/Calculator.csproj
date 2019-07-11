@@ -46,44 +46,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FactoryOne\Operations\Average.cs" />
-    <Compile Include="FactoryOne\Operations\Exponentiation.cs" />
-    <Compile Include="FactoryOne\Operations\Root.cs" />
-    <Compile Include="FactoryTwo\Operations\Arcsin.cs" />
-    <Compile Include="FactoryTwo\Operations\Cos.cs" />
-    <Compile Include="FactoryTwo\Operations\CTan.cs" />
-    <Compile Include="FactoryTwo\Operations\Degrees.cs" />
-    <Compile Include="FactoryTwo\Operations\Negative.cs" />
-    <Compile Include="FactoryTwo\Operations\Radians.cs" />
-    <Compile Include="FactoryTwo\Operations\TenToTheDegree.cs" />
-    <Compile Include="FactoryOne\Operations\GeometricMean.cs" />
-    <Compile Include="FactoryTwo\Operations\Exponent.cs" />
-    <Compile Include="FactoryTwo\Operations\LnX.cs" />
-    <Compile Include="FactoryOne\Operations\Logarithms.cs" />
-    <Compile Include="FactoryTwo\Operations\LogTwo.cs" />
-    <Compile Include="FactoryOne\Operations\Max.cs" />
-    <Compile Include="FactoryOne\Operations\RemainderOfTheDivision.cs" />
-    <Compile Include="FactoryTwo\Operations\DivisionByOne.cs" />
-    <Compile Include="FactoryTwo\Operations\Sin.cs" />
-    <Compile Include="FactoryOne\Operations\Addition.cs" />
-    <Compile Include="FactoryOne\Operations\Division.cs" />
-    <Compile Include="FactoryOne\Factory.cs" />
-    <Compile Include="FactoryTwo\FactoryTwo.cs" />
+    <Compile Include="OneArgumentsOperations\Average.cs" />
+    <Compile Include="OneArgumentsOperations\Exponentiation.cs" />
+    <Compile Include="OneArgumentsOperations\Root.cs" />
+    <Compile Include="TwoArgumentsOperations\Arcsin.cs" />
+    <Compile Include="TwoArgumentsOperations\Cos.cs" />
+    <Compile Include="TwoArgumentsOperations\CTan.cs" />
+    <Compile Include="TwoArgumentsOperations\Degrees.cs" />
+    <Compile Include="TwoArgumentsOperations\Negative.cs" />
+    <Compile Include="TwoArgumentsOperations\Radians.cs" />
+    <Compile Include="TwoArgumentsOperations\TenToTheDegree.cs" />
+    <Compile Include="OneArgumentsOperations\GeometricMean.cs" />
+    <Compile Include="TwoArgumentsOperations\Exponent.cs" />
+    <Compile Include="TwoArgumentsOperations\LnX.cs" />
+    <Compile Include="OneArgumentsOperations\Logarithms.cs" />
+    <Compile Include="TwoArgumentsOperations\LogTwo.cs" />
+    <Compile Include="OneArgumentsOperations\Max.cs" />
+    <Compile Include="OneArgumentsOperations\RemainderOfTheDivision.cs" />
+    <Compile Include="TwoArgumentsOperations\DivisionByOne.cs" />
+    <Compile Include="TwoArgumentsOperations\Sin.cs" />
+    <Compile Include="OneArgumentsOperations\Addition.cs" />
+    <Compile Include="OneArgumentsOperations\Division.cs" />
+    <Compile Include="OneArgumentsOperations\Factory.cs" />
+    <Compile Include="TwoArgumentsOperations\FactoryTwo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FactoryTwo\IOneArgumentsCalculator.cs" />
-    <Compile Include="FactoryOne\ITwoArgumentsCalculator.cs" />
-    <Compile Include="FactoryOne\Operations\Multiplication.cs" />
-    <Compile Include="FactoryOne\Operations\Min.cs" />
+    <Compile Include="TwoArgumentsOperations\IOneArgumentsCalculator.cs" />
+    <Compile Include="OneArgumentsOperations\ITwoArgumentsCalculator.cs" />
+    <Compile Include="OneArgumentsOperations\Multiplication.cs" />
+    <Compile Include="OneArgumentsOperations\Min.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="FactoryTwo\Operations\RootExtraction.cs" />
-    <Compile Include="FactoryTwo\Operations\SquareRoot.cs" />
-    <Compile Include="FactoryOne\Operations\Subtraction.cs" />
+    <Compile Include="TwoArgumentsOperations\RootExtraction.cs" />
+    <Compile Include="TwoArgumentsOperations\SquareRoot.cs" />
+    <Compile Include="OneArgumentsOperations\Subtraction.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

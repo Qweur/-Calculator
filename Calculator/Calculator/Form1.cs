@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Forms;
-using Calculator.FactoryOne;
-using Calculator.FactoryTwo;
+using Calculator.OneArgumentsOperations;
+using Calculator.TwoArgumentsOperations;
 
 namespace Calculator
 {
@@ -22,7 +22,7 @@ namespace Calculator
         private void Calculate_Two(object sender, EventArgs e)
         {
             double firstOperand = Convert.ToDouble(Input1.Text);
-            IOneArgumentsCalculator calculator = FactoryTwo.FactoryTwo.CalculateTwo(((Button)sender).Name);
+            IOneArgumentsCalculator calculator = FactoryTwo.CalculateTwo(((Button)sender).Name);
             double result = calculator.CalculateTwo(firstOperand);
 
 
@@ -32,7 +32,7 @@ namespace Calculator
         {
             double firstOperand = Convert.ToDouble(Input1.Text);
             double secondOperand = Convert.ToDouble(Input2.Text);
-            ITwoArgumentsCalculator calculator = Factory.Calculate(((Button)sender).Name);
+            ITwoArgumentsCalculator calculator = Factory.CreateCalculator(((Button)sender).Name);
             double result = calculator.Calculate(firstOperand,secondOperand);
 
 
