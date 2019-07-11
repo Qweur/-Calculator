@@ -2,9 +2,21 @@
 
 namespace Calculator.OneArgumentsOperations
 {
+    /// <summary>
+    /// Count RootExtraction
+    /// </summary>
     public class RootExtraction : IOneArgumentsCalculator
     {
-    public double CalculateTwo(double first)
+        /// <summary>
+        /// Finding RootExtraction
+        /// </summary>
+        /// <param name="first">
+        /// Value of the parameter
+        /// </param>
+        /// <returns>
+        /// RootExtraction results
+        /// </returns>
+        public double CalculateTwo(double first)
     {
         if (first < 0)
         {
