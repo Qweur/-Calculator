@@ -5,13 +5,17 @@ namespace Calculator.Tests.Operations
     [TestFixture]
     public class CTanTests
     {
-        [Test]
-        public void CalculateTest()
+        [TestCase(60, 3.124)]
+        [TestCase(-5, 0.295)]
+        [TestCase(17, 0.286)]
+        public void CalculateTest(
+            double first,
+            double expected)
         {
             var calculator = new Calculator.FactoryTwo.Operations.CTan();
-            var actual = calculator.CalculateTwo(500);
-
-            Assert.AreEqual(1.88, actual, 0.01);
+            var actualResult = calculator.CalculateTwo(first);
+            Assert.AreEqual(expected, actualResult, 0.001);
         }
+
     }
 }

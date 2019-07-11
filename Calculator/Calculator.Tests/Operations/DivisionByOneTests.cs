@@ -6,13 +6,17 @@ namespace Calculator.Tests.Operations
     [TestFixture]
     public class DivisionByOneTests
     {
-        [Test]
-        public void CalculateTest()
+        [TestCase(2, 0.5)]
+        [TestCase(6, 0.166)]
+        [TestCase(8, 0.125)]
+        public void CalculateTest(
+            double first,
+            double expected)
         {
             var calculator = new Calculator.FactoryTwo.Operations.DivisionByOne();
-            var actual = calculator.CalculateTwo(1000);
-
-            Assert.AreEqual(0.001, actual, 0.01);
+            var actualResult = calculator.CalculateTwo(first);
+            Assert.AreEqual(expected, actualResult, 0.001);
         }
+
     }
 }

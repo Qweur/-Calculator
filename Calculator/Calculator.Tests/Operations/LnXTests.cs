@@ -5,13 +5,17 @@ namespace Calculator.Tests.Operations
     [TestFixture]
     public class LnXTests
     {
-        [Test]
-        public void CalculateTest()
+        [TestCase(2, 0.693)]
+        [TestCase(20, 2.995)]
+        [TestCase(95, 4.553)]
+        public void CalculateTest(
+            double first,
+            double expected)
         {
             var calculator = new Calculator.FactoryTwo.Operations.LnX();
-            var actual = calculator.CalculateTwo(50);
-
-            Assert.AreEqual(3.91, actual, 0.01);
+            var actualResult = calculator.CalculateTwo(first);
+            Assert.AreEqual(expected, actualResult, 0.001);
         }
+
     }
 }

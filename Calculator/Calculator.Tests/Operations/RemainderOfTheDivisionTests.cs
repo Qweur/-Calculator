@@ -5,13 +5,18 @@ namespace Calculator.Tests.Operations
     [TestFixture]
     public class RemainderOfTheDivisionTests
     {
-        [Test]
-        public void CalculateTest()
+        [TestCase(5, 3, 2)]
+        [TestCase(9, 4, 1)]
+        [TestCase(10, 7, 3)]
+        public void CalculateTest(
+            double first,
+            double second,
+            double expected)
         {
             var calculator = new Calculator.FactoryOne.Operations.RemainderOfTheDivision();
-            var actual = calculator.Calculate(80, 56);
-
-            Assert.AreEqual(24, actual, 0.01);
+            var actualResult = calculator.Calculate(first, second);
+            Assert.AreEqual(expected, actualResult, 0.001);
         }
+
     }
 }

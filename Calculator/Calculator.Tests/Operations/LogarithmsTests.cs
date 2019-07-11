@@ -5,14 +5,18 @@ namespace Calculator.Tests.Operations
     [TestFixture]
     public class LogarithmsTests
     {
-        [Test]
-        public void CalculateTest()
+        [TestCase(2, 3, 0.631)]
+        [TestCase(6, 3, 1.631)]
+        [TestCase(8, 12, 0.837)]
+        public void CalculateTest(
+            double first,
+            double second,
+            double expected)
         {
             var calculator = new Calculator.FactoryOne.Operations.Logarithms();
-            var actual = calculator.Calculate(5, 5);
-
-            Assert.AreEqual(1, actual, 0.01);
+            var actualResult = calculator.Calculate(first, second);
+            Assert.AreEqual(expected, actualResult,0.001);
         }
+
     }
 }
-
