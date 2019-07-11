@@ -2,11 +2,11 @@
 
 namespace Calculator.TwoArgumentsOperations
 {/// <summary>
-/// Finding the minimum
+/// Count the minimum
 /// </summary>
     public class Min : ITwoArgumentsCalculator
     {/// <summary>
-     /// 
+     /// Finding the minimum
      /// </summary>
      /// <param name="first">
      /// Value of the first parameter
