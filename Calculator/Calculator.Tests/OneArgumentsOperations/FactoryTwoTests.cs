@@ -5,7 +5,7 @@ using NUnit.Framework;
 namespace Calculator.Tests.OneArgumentsOperations
 {
     [TestFixture]
-    class FactoryTwoTests
+    class OneArgumentCalculatorsFactoryTests
     {
         [TestCase("Root_extraction", typeof(RootExtraction))]
         [TestCase("Square_root", typeof(SquareRoot))]
@@ -23,7 +23,7 @@ namespace Calculator.Tests.OneArgumentsOperations
         [TestCase("Radians", typeof(Radians))]
         public void CreateCalculateTest(string name, Type type)
         {
-            var calculator = FactoryTwo.CreateCalculatorTwo(name);
+            var calculator = OneArgumentCalculatorsFactory.CreateCalculator(name);
 
             Assert.IsInstanceOf(type, calculator);
 

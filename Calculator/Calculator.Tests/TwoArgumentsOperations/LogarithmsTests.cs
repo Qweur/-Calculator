@@ -1,5 +1,6 @@
 ﻿using Calculator.TwoArgumentsOperations;
 using NUnit.Framework;
+using System;
 
 namespace Calculator.Tests.TwoArgumentsOperations
 {
@@ -17,6 +18,12 @@ namespace Calculator.Tests.TwoArgumentsOperations
             var calculator = new Logarithms();
             var actualResult = calculator.Calculate(first, second);
             Assert.AreEqual(expected, actualResult, 0.001);
+        }
+        [Test]
+        public void WrongAnswer()
+        {
+            var calculator = new Logarithms();
+            Assert.Throws<Exception>(code: () => calculator.Calculate(0,1));
         }
 
     }

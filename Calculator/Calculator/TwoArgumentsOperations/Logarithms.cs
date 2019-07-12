@@ -21,6 +21,10 @@ namespace Calculator.TwoArgumentsOperations
         /// </returns>
         public double Calculate(double first, double second)
         {
+            if (first < 0 || second == 1 || second < 0)
+            {
+                throw new Exception("Не верные данные");
+            }
             return Math.Log(first, second);
         }
     }

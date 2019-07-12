@@ -17,8 +17,12 @@ namespace Calculator.Tests.OneArgumentsOperations
             var calculator = new Arcsin();
             var actualResult = calculator.CalculateTwo(first);
             Assert.AreEqual(expected, actualResult, 0.001);
+        }
+        [Test]
+        public void WrongAnswer()
+        {
+            var calculator = new Arcsin();
             Assert.Throws<Exception>(code: () => calculator.CalculateTwo(45));
         }
-
     }
 }

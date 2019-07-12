@@ -5,7 +5,7 @@ namespace Calculator.TwoArgumentsOperations
     /// <summary>
     /// Factory for a two argument
     /// </summary>
-    public static class Factory
+    public static class TwoArgumentCalculatorsFactory
     {
         /// <summary>
         /// Factory
@@ -23,13 +23,10 @@ namespace Calculator.TwoArgumentsOperations
             {
                 case "Addition":
                     return new Addition();
-
                 case "Subtraction":
                     return new Subtraction();
-
                 case "Multiplication":
                     return new Multiplication();
-
                 case "Division":
                     return new Division();
                 case "Logarithms":

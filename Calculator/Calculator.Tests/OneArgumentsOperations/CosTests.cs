@@ -10,10 +10,7 @@ namespace Calculator.Tests.OneArgumentsOperations
         [TestCase(0, 1)]
         [TestCase(6, 0.960)]
         [TestCase(-3, -0.989)]
-
-        public void CalculateTest(
-double first,
-double expected)
+        public void CalculateTest(double first, double expected)
         {
             var calculator = new Cos();
             var actualResult = calculator.CalculateTwo(first);

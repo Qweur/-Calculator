@@ -1,4 +1,6 @@
-﻿namespace Calculator.OneArgumentsOperations
+﻿using System;
+
+namespace Calculator.OneArgumentsOperations
 {
     /// <summary>
     /// Count DivisionByOne
@@ -16,6 +18,10 @@
         /// </returns>
         public double CalculateTwo(double first)
         {
+            if (first == 0)
+            {
+                throw new Exception("Деление на 0");
+            }
             return 1 / first;
         }
     }

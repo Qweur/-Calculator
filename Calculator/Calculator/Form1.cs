@@ -24,7 +24,7 @@ namespace Calculator
             try
             {
                 double firstOperand = Convert.ToDouble(Input1.Text);
-                IOneArgumentsCalculator calculator = FactoryTwo.CreateCalculatorTwo(((Button) sender).Name);
+                IOneArgumentsCalculator calculator = OneArgumentCalculatorsFactory.CreateCalculator(((Button) sender).Name);
                 double result = calculator.CalculateTwo(firstOperand);
 
                 Result.Text = result.ToString(CultureInfo.InvariantCulture);
@@ -40,7 +40,7 @@ namespace Calculator
             {
                 double firstOperand = Convert.ToDouble(Input1.Text);
                 double secondOperand = Convert.ToDouble(Input2.Text);
-                ITwoArgumentsCalculator calculator = Factory.CreateCalculator(((Button) sender).Name);
+                ITwoArgumentsCalculator calculator = TwoArgumentCalculatorsFactory.CreateCalculator(((Button) sender).Name);
                 double result = calculator.Calculate(firstOperand, secondOperand);
                 Result.Text = result.ToString(CultureInfo.InvariantCulture);
 

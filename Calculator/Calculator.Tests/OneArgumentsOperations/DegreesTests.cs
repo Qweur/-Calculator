@@ -11,9 +11,7 @@ namespace Calculator.Tests.OneArgumentsOperations
         [TestCase(-3, -171)]
         [TestCase(0.15, 8)]
 
-        public void CalculateTest(
-double first,
-double expected)
+        public void CalculateTest(double first, double expected)
         {
             var calculator = new Degrees();
             var actualResult = calculator.CalculateTwo(first);

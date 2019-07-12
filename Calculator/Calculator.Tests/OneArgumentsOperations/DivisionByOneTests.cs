@@ -1,5 +1,6 @@
 ﻿using Calculator.OneArgumentsOperations;
 using NUnit.Framework;
+using System;
 
 namespace Calculator.Tests.OneArgumentsOperations
 {
@@ -16,6 +17,12 @@ namespace Calculator.Tests.OneArgumentsOperations
             var calculator = new DivisionByOne();
             var actualResult = calculator.CalculateTwo(first);
             Assert.AreEqual(expected, actualResult, 0.001);
+        }
+        [Test]
+        public void WrongAnswer()
+        {
+            var calculator = new DivisionByOne();
+            Assert.Throws<Exception>(code: () => calculator.CalculateTwo(0));
         }
 
     }

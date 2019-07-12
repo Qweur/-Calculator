@@ -18,6 +18,10 @@ namespace Calculator.OneArgumentsOperations
         /// </returns>
         public double CalculateTwo(double first)
         {
+            if (first < 0)
+            {
+                throw new Exception("Не должно быть меньше 0");
+            }
             return Math.Log(first, Math.E);
         }
     }

@@ -67,8 +67,8 @@
     <Compile Include="OneArgumentsOperations\Sin.cs" />
     <Compile Include="TwoArgumentsOperations\Addition.cs" />
     <Compile Include="TwoArgumentsOperations\Division.cs" />
-    <Compile Include="TwoArgumentsOperations\Factory.cs" />
-    <Compile Include="OneArgumentsOperations\FactoryTwo.cs" />
+    <Compile Include="TwoArgumentsOperations\TwoArgumentCalculatorsFactory.cs" />
+    <Compile Include="OneArgumentsOperations\OneArgumentCalculatorsFactory.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

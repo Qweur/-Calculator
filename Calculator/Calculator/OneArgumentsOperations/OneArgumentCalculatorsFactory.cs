@@ -5,7 +5,7 @@ namespace Calculator.OneArgumentsOperations
     /// <summary>
     /// Factory for a one argument
     /// </summary>
-    public static class FactoryTwo
+    public static class OneArgumentCalculatorsFactory
     {
         /// <summary>
         /// FactoryTwo
@@ -16,7 +16,7 @@ namespace Calculator.OneArgumentsOperations
         /// <returns>
         /// Create a new calculator with the desired action
         /// </returns>
-        public static IOneArgumentsCalculator CreateCalculatorTwo(string name)
+        public static IOneArgumentsCalculator CreateCalculator(string name)
         {
 
             switch (name)

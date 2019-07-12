@@ -11,9 +11,7 @@ namespace Calculator.Tests.OneArgumentsOperations
         [TestCase(-4, 0.018)]
         [TestCase(16, 8886110)]
 
-        public void CalculateTest(
-double first,
-double expected)
+        public void CalculateTest(double first, double expected)
         {
             var calculator = new Exponent();
             var actualResult = calculator.CalculateTwo(first);
