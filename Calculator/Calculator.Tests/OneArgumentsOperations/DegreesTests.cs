@@ -17,7 +17,7 @@ double expected)
         {
             var calculator = new Degrees();
             var actualResult = calculator.CalculateTwo(first);
-            Assert.AreEqual((int)expected,(int) actualResult);
+            Assert.AreEqual((int)expected, (int)actualResult);
         }
     }
 }

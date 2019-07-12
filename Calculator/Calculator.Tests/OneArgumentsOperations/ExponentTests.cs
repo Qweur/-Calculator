@@ -5,7 +5,7 @@ namespace Calculator.Tests.OneArgumentsOperations
 {
     [TestFixture]
 
-   public class ExponentTests
+    public class ExponentTests
     {
         [TestCase(8, 2980)]
         [TestCase(-4, 0.018)]
@@ -17,7 +17,7 @@ double expected)
         {
             var calculator = new Exponent();
             var actualResult = calculator.CalculateTwo(first);
-            Assert.AreEqual((int) expected, (int) actualResult);
+            Assert.AreEqual((int)expected, (int)actualResult);
         }
     }
 }

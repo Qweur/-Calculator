@@ -7,7 +7,7 @@ namespace Calculator.Tests.OneArgumentsOperations
     public class SinTests
     {
         [TestCase(-6, 0.279)]
-        [TestCase(30,-0.988)]
+        [TestCase(30, -0.988)]
         [TestCase(1, 0.841)]
         public void CalculateTest(
             double first,

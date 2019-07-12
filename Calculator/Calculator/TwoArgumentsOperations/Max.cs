@@ -21,7 +21,7 @@ namespace Calculator.TwoArgumentsOperations
         /// </returns>
         public double Calculate(double first, double second)
         {
-            return Math.Max(first,second);
+            return Math.Max(first, second);
         }
     }
 }

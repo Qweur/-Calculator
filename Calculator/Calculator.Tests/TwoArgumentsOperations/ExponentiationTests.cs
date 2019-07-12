@@ -5,7 +5,7 @@ namespace Calculator.Tests.TwoArgumentsOperations
 {
     [TestFixture]
 
-   public class ExponentiationTests
+    public class ExponentiationTests
     {
         [TestCase(3, 3, 27)]
         [TestCase(6, 5, 7776)]
@@ -15,7 +15,7 @@ namespace Calculator.Tests.TwoArgumentsOperations
    double first,
    double second,
    double expected)
-        { 
+        {
             var calculator = new Exponentiation();
             var actualResult = calculator.Calculate(first, second);
             Assert.AreEqual(expected, actualResult);

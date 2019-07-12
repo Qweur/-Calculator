@@ -12,7 +12,7 @@ namespace Calculator.Tests.TwoArgumentsOperations
             var calculator = new Addition();
             var actual = calculator.Calculate(3, 2);
 
-            Assert.AreEqual(5,actual ,0.01);
+            Assert.AreEqual(5, actual, 0.01);
         }
     }
 }

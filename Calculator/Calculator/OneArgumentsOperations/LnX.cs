@@ -18,7 +18,7 @@ namespace Calculator.OneArgumentsOperations
         /// </returns>
         public double CalculateTwo(double first)
         {
-            return Math.Log(first,Math.E);
+            return Math.Log(first, Math.E);
         }
     }
 }

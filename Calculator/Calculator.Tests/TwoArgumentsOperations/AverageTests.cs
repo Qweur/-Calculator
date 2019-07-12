@@ -5,7 +5,7 @@ namespace Calculator.Tests.TwoArgumentsOperations
 {
     [TestFixture]
 
-   public class AverageTests
+    public class AverageTests
     {
         [TestCase(-4, -5, 10)]
         [TestCase(7, 8, 28)]

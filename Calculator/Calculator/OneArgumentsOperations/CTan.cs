@@ -18,7 +18,7 @@ namespace Calculator.OneArgumentsOperations
         /// </returns>
         public double CalculateTwo(double first)
         {
-            return 1/ Math.Tan(first);
+            return 1 / Math.Tan(first);
         }
     }
 }

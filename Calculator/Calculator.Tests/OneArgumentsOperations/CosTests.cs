@@ -8,7 +8,7 @@ namespace Calculator.Tests.OneArgumentsOperations
     public class CosTests
     {
         [TestCase(0, 1)]
-        [TestCase(6,0.960)]
+        [TestCase(6, 0.960)]
         [TestCase(-3, -0.989)]
 
         public void CalculateTest(

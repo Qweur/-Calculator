@@ -29,5 +29,5 @@ namespace Calculator.TwoArgumentsOperations
             return first / second;
         }
 
-}
+    }
 }

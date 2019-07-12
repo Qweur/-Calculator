@@ -16,7 +16,7 @@ namespace Calculator.Tests.TwoArgumentsOperations
         {
             var calculator = new Logarithms();
             var actualResult = calculator.Calculate(first, second);
-            Assert.AreEqual(expected, actualResult,0.001);
+            Assert.AreEqual(expected, actualResult, 0.001);
         }
 
     }

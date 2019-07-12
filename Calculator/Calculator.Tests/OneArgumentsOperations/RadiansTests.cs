@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace Calculator.Tests.OneArgumentsOperations
 {
     [TestFixture]
-   public class RadiansTests
+    public class RadiansTests
     {
         [TestCase(401, 6)]
         [TestCase(-171, -2)]

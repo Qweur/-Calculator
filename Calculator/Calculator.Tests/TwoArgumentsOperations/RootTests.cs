@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace Calculator.Tests.TwoArgumentsOperations
 {
-  public  class RootTests
+    public class RootTests
     {
         [TestCase(6, 2, 2.449)]
         [TestCase(3, -4, 0.759)]
